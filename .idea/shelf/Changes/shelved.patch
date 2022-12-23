@@ -1,0 +1,3689 @@
+Index: app/src/main/res/drawable/round_back_red10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/round_back_red10.xml b/app/src/main/res/drawable/round_back_red10.xml
+new file mode 100644
+--- /dev/null	(date 1667302202000)
++++ b/app/src/main/res/drawable/round_back_red10.xml	(date 1667302202000)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android"
++    android:shape="rectangle">
++
++    <solid android:color="#DD2C00"/>
++    <corners android:radius="10dp"/>
++
++</shape>
+\ No newline at end of file
+Index: app/src/main/res/drawable/round_back_white_stoke2_10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/round_back_white_stoke2_10.xml b/app/src/main/res/drawable/round_back_white_stoke2_10.xml
+new file mode 100644
+--- /dev/null	(date 1667293234000)
++++ b/app/src/main/res/drawable/round_back_white_stoke2_10.xml	(date 1667293234000)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android"
++    android:shape="rectangle">
++
++    <solid android:color="#FFFFFF"/>
++    <corners android:radius="10dp"/>
++    <stroke android:color="#1F6BB8"
++        android:width="3dp"/>
++
++</shape>
+\ No newline at end of file
+Index: app/src/main/res/drawable/ic_launcher_background.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/ic_launcher_background.xml b/app/src/main/res/drawable/ic_launcher_background.xml
+new file mode 100644
+--- /dev/null	(date 1667323574000)
++++ b/app/src/main/res/drawable/ic_launcher_background.xml	(date 1667323574000)
+@@ -0,0 +1,74 @@
++<?xml version="1.0" encoding="utf-8"?>
++<vector
++    android:height="108dp"
++    android:width="108dp"
++    android:viewportHeight="108"
++    android:viewportWidth="108"
++    xmlns:android="http://schemas.android.com/apk/res/android">
++    <path android:fillColor="#3DDC84"
++          android:pathData="M0,0h108v108h-108z"/>
++    <path android:fillColor="#00000000" android:pathData="M9,0L9,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M19,0L19,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M29,0L29,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M39,0L39,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M49,0L49,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M59,0L59,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M69,0L69,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M79,0L79,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M89,0L89,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M99,0L99,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M0,9L108,9"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M0,19L108,19"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M0,29L108,29"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M0,39L108,39"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M0,49L108,49"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M0,59L108,59"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M0,69L108,69"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M0,79L108,79"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M0,89L108,89"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M0,99L108,99"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M19,29L89,29"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M19,39L89,39"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M19,49L89,49"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M19,59L89,59"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M19,69L89,69"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M19,79L89,79"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M29,19L29,89"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M39,19L39,89"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M49,19L49,89"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M59,19L59,89"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M69,19L69,89"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M79,19L79,89"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++</vector>
+Index: app/src/main/res/drawable/round_back_green20.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/round_back_green20.xml b/app/src/main/res/drawable/round_back_green20.xml
+new file mode 100644
+--- /dev/null	(date 1667219292000)
++++ b/app/src/main/res/drawable/round_back_green20.xml	(date 1667219292000)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android">
++    <solid android:color="#00C853"/>
++    <corners android:radius="20dp"/>
++
++</shape>
+\ No newline at end of file
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/gradle/wrapper/gradle-wrapper.properties b/gradle/wrapper/gradle-wrapper.properties
+new file mode 100644
+--- /dev/null	(date 1667213098000)
++++ b/gradle/wrapper/gradle-wrapper.properties	(date 1667213098000)
+@@ -0,0 +1,6 @@
++#Mon Oct 31 13:44:58 MSK 2022
++distributionBase=GRADLE_USER_HOME
++distributionUrl=https\://services.gradle.org/distributions/gradle-7.3.3-bin.zip
++distributionPath=wrapper/dists
++zipStorePath=wrapper/dists
++zipStoreBase=GRADLE_USER_HOME
+Index: app/src/main/res/drawable/raund_back_red.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/raund_back_red.xml b/app/src/main/res/drawable/raund_back_red.xml
+new file mode 100644
+--- /dev/null	(date 1671715622471)
++++ b/app/src/main/res/drawable/raund_back_red.xml	(date 1671715622471)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android">
++    <solid android:color="#ec6e6f"/>
++    <corners android:radius="20dp"/>
++
++</shape>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+new file mode 100644
+--- /dev/null	(date 1670927317158)
++++ b/.idea/gradle.xml	(date 1670927317158)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="testRunner" value="GRADLE" />
++        <option name="distributionType" value="DEFAULT_WRAPPED" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$" />
++            <option value="$PROJECT_DIR$/app" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1671790265613)
++++ b/.idea/misc.xml	(date 1671790265613)
+@@ -0,0 +1,28 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DesignSurface">
++    <option name="filePathToZoomLevelMap">
++      <map>
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/drawable/raund_back_red.xml" value="0.1995" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/drawable/round_back_green20.xml" value="0.1995" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/activity_login.xml" value="0.317481884057971" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/activity_main.xml" value="0.317481884057971" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/activity_main2.xml" value="0.317481884057971" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/activity_quiz.xml" value="0.317481884057971" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/activity_quiz_results.xml" value="0.33" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/main.xml" value="0.317481884057971" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/rating2.xml" value="0.317481884057971" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/rating_layout.xml" value="0.317481884057971" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/rating_view_item.xml" value="0.317481884057971" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/register_window.xml" value="0.317481884057971" />
++        <entry key="..\:/Programming/Projects/DBO_Quiz/app/src/main/res/layout/sign_in_window.xml" value="0.317481884057971" />
++      </map>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/build/classes" />
++  </component>
++  <component name="ProjectType">
++    <option name="id" value="Android" />
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/androidTest/java/space/salvador/dbo_quiz/ExampleInstrumentedTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/androidTest/java/space/salvador/dbo_quiz/ExampleInstrumentedTest.java b/app/src/androidTest/java/space/salvador/dbo_quiz/ExampleInstrumentedTest.java
+new file mode 100644
+--- /dev/null	(date 1667213098000)
++++ b/app/src/androidTest/java/space/salvador/dbo_quiz/ExampleInstrumentedTest.java	(date 1667213098000)
+@@ -0,0 +1,26 @@
++package space.salvador.dbo_quiz;
++
++import android.content.Context;
++
++import androidx.test.platform.app.InstrumentationRegistry;
++import androidx.test.ext.junit.runners.AndroidJUnit4;
++
++import org.junit.Test;
++import org.junit.runner.RunWith;
++
++import static org.junit.Assert.*;
++
++/**
++ * Instrumented test, which will execute on an Android device.
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++@RunWith(AndroidJUnit4.class)
++public class ExampleInstrumentedTest {
++    @Test
++    public void useAppContext() {
++        // Context of the app under test.
++        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
++        assertEquals("space.salvador.dbo_quiz", appContext.getPackageName());
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/drawable/round_back_white_stroke10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/round_back_white_stroke10.xml b/app/src/main/res/drawable/round_back_white_stroke10.xml
+new file mode 100644
+--- /dev/null	(date 1667222960000)
++++ b/app/src/main/res/drawable/round_back_white_stroke10.xml	(date 1667222960000)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    android:shape="rectangle">
++
++    <solid android:color="#FFFFFF"/>
++    <corners android:radius="10dp"/>
++    <stroke android:color="#00C854"
++        android:width="5dp"/>
++
++</shape>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1670926921170)
++++ b/.idea/.gitignore	(date 1670926921170)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: app/src/main/res/drawable/round_back_green10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/round_back_green10.xml b/app/src/main/res/drawable/round_back_green10.xml
+new file mode 100644
+--- /dev/null	(date 1667302642000)
++++ b/app/src/main/res/drawable/round_back_green10.xml	(date 1667302642000)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android"
++    android:shape="rectangle">
++
++    <solid android:color="#00C855"/>
++    <corners android:radius="10dp"/>
++
++</shape>
+\ No newline at end of file
+Index: app/src/main/res/drawable/round_back_light_yellow10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/round_back_light_yellow10.xml b/app/src/main/res/drawable/round_back_light_yellow10.xml
+new file mode 100644
+--- /dev/null	(date 1667292664000)
++++ b/app/src/main/res/drawable/round_back_light_yellow10.xml	(date 1667292664000)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android"
++    android:shape="rectangle">
++    <solid android:color="#4DFFAB00"/>
++    <corners android:radius="10dp"/>
++
++</shape>
+\ No newline at end of file
+Index: app/src/main/res/drawable/raund_back_white10.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/raund_back_white10.xml b/app/src/main/res/drawable/raund_back_white10.xml
+new file mode 100644
+--- /dev/null	(date 1667394728000)
++++ b/app/src/main/res/drawable/raund_back_white10.xml	(date 1667394728000)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android"
++    android:shape="rectangle">
++    <solid android:color="#FFFFFF"/>
++    <corners android:radius="10dp"/>
++
++</shape>
+\ No newline at end of file
+Index: app/src/test/java/space/salvador/dbo_quiz/ExampleUnitTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/test/java/space/salvador/dbo_quiz/ExampleUnitTest.java b/app/src/test/java/space/salvador/dbo_quiz/ExampleUnitTest.java
+new file mode 100644
+--- /dev/null	(date 1667213098000)
++++ b/app/src/test/java/space/salvador/dbo_quiz/ExampleUnitTest.java	(date 1667213098000)
+@@ -0,0 +1,17 @@
++package space.salvador.dbo_quiz;
++
++import org.junit.Test;
++
++import static org.junit.Assert.*;
++
++/**
++ * Example local unit test, which will execute on the development machine (host).
++ *
++ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
++ */
++public class ExampleUnitTest {
++    @Test
++    public void addition_isCorrect() {
++        assertEquals(4, 2 + 2);
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/drawable/splashscreen.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/splashscreen.xml b/app/src/main/res/drawable/splashscreen.xml
+new file mode 100644
+--- /dev/null	(date 1667335306000)
++++ b/app/src/main/res/drawable/splashscreen.xml	(date 1667335306000)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="utf-8"?>
++<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
++    <item android:drawable="@color/white"/>
++
++    <item>
++        <bitmap
++            android:layout_height="wrap_content"
++            android:gravity="center"
++            android:src="@drawable/uss"/>
++    </item>
++</layer-list>
+\ No newline at end of file
+Index: app/src/main/java/space/salvador/dbo_quiz/Models/User.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/Models/User.java b/app/src/main/java/space/salvador/dbo_quiz/Models/User.java
+new file mode 100644
+--- /dev/null	(date 1669147128000)
++++ b/app/src/main/java/space/salvador/dbo_quiz/Models/User.java	(date 1669147128000)
+@@ -0,0 +1,45 @@
++package space.salvador.dbo_quiz.Models;
++
++public class User {
++    private String name, email, password, phone;
++    public User() {}
++
++    public User(String name, String email, String password, String phone) {
++        this.name = name;
++        this.email = email;
++        this.password = password;
++        this.phone = phone;
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public String getEmail() {
++        return email;
++    }
++
++    public void setEmail(String email) {
++        this.email = email;
++    }
++
++    public String getPassword() {
++        return password;
++    }
++
++    public void setPassword(String password) {
++        this.password = password;
++    }
++
++    public String getPhone() {
++        return phone;
++    }
++
++    public void setPhone(String phone) {
++        this.phone = phone;
++    }
++}
+Index: app/src/main/java/space/salvador/dbo_quiz/SplashScreen.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/SplashScreen.java b/app/src/main/java/space/salvador/dbo_quiz/SplashScreen.java
+new file mode 100644
+--- /dev/null	(date 1671786140766)
++++ b/app/src/main/java/space/salvador/dbo_quiz/SplashScreen.java	(date 1671786140766)
+@@ -0,0 +1,17 @@
++package space.salvador.dbo_quiz;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.Intent;
++import android.os.Bundle;
++
++public class SplashScreen extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        Intent intent = new Intent(this, Login.class);
++        startActivity(intent);
++        finish();
++    }
++}
+\ No newline at end of file
+Index: app/src/main/java/space/salvador/dbo_quiz/Models/Ball.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/Models/Ball.java b/app/src/main/java/space/salvador/dbo_quiz/Models/Ball.java
+new file mode 100644
+--- /dev/null	(date 1670174742000)
++++ b/app/src/main/java/space/salvador/dbo_quiz/Models/Ball.java	(date 1670174742000)
+@@ -0,0 +1,69 @@
++package space.salvador.dbo_quiz.Models;
++
++import java.util.Comparator;
++
++public class Ball {
++    public String id, correct, incorrect, login, level;
++
++    public Ball (){
++    }
++
++    public Ball (String id, String correct, String incorrect, String login, String level) {
++        this.id = id;
++        this.correct = correct;
++        this.incorrect = incorrect;
++        this.login = login;
++        this.level = level;
++    }
++
++
++
++
++    public String getId() {
++        return id;
++    }
++
++    public void setId(String id) {
++        this.id = id;
++    }
++
++    public String getCorrect() {
++        return correct;
++    }
++
++    public void setCorrect(String correct) {
++        this.correct = correct;
++    }
++
++    public String getIncorrect() {
++        return incorrect;
++    }
++
++    public void setIncorrect(String incorrect) {
++        this.incorrect = incorrect;
++    }
++
++    public String getLogin() {
++        return login;
++    }
++
++    public void setLogin(String login) {
++        this.login = login;
++    }
++
++    public String getLevel() {
++        return level;
++    }
++
++    public void setLevel(String level) {
++        this.level = level;
++    }
++
++    public static Comparator<Ball> ByCorrect = new Comparator<Ball>() {
++        @Override
++        public int compare(Ball one, Ball two) {
++            return - Integer.valueOf(one.correct).compareTo(Integer.valueOf(two.correct));
++        }
++    };
++
++}
+Index: app/src/main/java/space/salvador/dbo_quiz/QuestionsList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/QuestionsList.java b/app/src/main/java/space/salvador/dbo_quiz/QuestionsList.java
+new file mode 100644
+--- /dev/null	(date 1667302964000)
++++ b/app/src/main/java/space/salvador/dbo_quiz/QuestionsList.java	(date 1667302964000)
+@@ -0,0 +1,49 @@
++package space.salvador.dbo_quiz;
++
++public class QuestionsList {
++
++    private String option1, option2, option3, option4, quastion, answer;
++    private String userSelectedAnswer;
++
++    public QuestionsList(String quastion, String option1, String option2, String option3, String option4,  String answer, String userSelectedAnswer) {
++        this.option1 = option1;
++        this.option2 = option2;
++        this.option3 = option3;
++        this.option4 = option4;
++        this.quastion = quastion;
++        this.answer = answer;
++        this.userSelectedAnswer = userSelectedAnswer;
++    }
++
++    public String getOption1() {
++        return option1;
++    }
++
++    public String getOption2() {
++        return option2;
++    }
++
++    public String getOption3() {
++        return option3;
++    }
++
++    public String getOption4() {
++        return option4;
++    }
++
++    public String getQuastion() {
++        return quastion;
++    }
++
++    public String getAnswer() {
++        return answer;
++    }
++
++    public String getUserSelectedAnswer() {
++        return userSelectedAnswer;
++    }
++
++    public void setUserSelectedAnswer(String userSelectedAnswer) {
++        this.userSelectedAnswer = userSelectedAnswer;
++    }
++}
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+new file mode 100644
+--- /dev/null	(date 1671783510318)
++++ b/app/src/main/AndroidManifest.xml	(date 1671783510318)
+@@ -0,0 +1,44 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    package="space.salvador.dbo_quiz">
++
++    <application
++        android:allowBackup="true"
++        android:dataExtractionRules="@xml/data_extraction_rules"
++        android:fullBackupContent="@xml/backup_rules"
++        android:icon="@mipmap/ic_launcher_foreground"
++        android:label="@string/app_name"
++        android:roundIcon="@mipmap/ic_launcher_round"
++        android:supportsRtl="true"
++        android:theme="@style/Theme.DBO_Quiz"
++        tools:targetApi="23">
++        <activity
++            android:name=".Login"
++            android:exported="false" />
++        <activity
++            android:name=".MainActivity2"
++            android:exported="false" />
++        <activity
++            android:name=".MainActivity"
++            android:exported="false" />
++        <activity
++            android:name=".QuizResults"
++            android:exported="false" />
++        <activity
++            android:name=".QuizActivity"
++            android:exported="false" />
++        <activity
++            android:name=".SplashScreen"
++            android:exported="true"
++            android:theme="@style/SplashTheme">
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++        <activity android:name=".RatingActivity" />
++    </application>
++
++</manifest>
+\ No newline at end of file
+Index: app/src/main/java/space/salvador/dbo_quiz/BallAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/BallAdapter.java b/app/src/main/java/space/salvador/dbo_quiz/BallAdapter.java
+new file mode 100644
+--- /dev/null	(date 1671783311626)
++++ b/app/src/main/java/space/salvador/dbo_quiz/BallAdapter.java	(date 1671783311626)
+@@ -0,0 +1,73 @@
++package space.salvador.dbo_quiz;
++
++import android.content.ClipData;
++import android.content.Context;
++import android.view.ContextMenu;
++import android.view.LayoutInflater;
++import android.view.View;
++import android.view.ViewGroup;
++import android.widget.TextView;
++
++import androidx.annotation.NonNull;
++import androidx.appcompat.view.menu.MenuView;
++import androidx.recyclerview.widget.RecyclerView;
++
++import java.util.Collections;
++import java.util.Comparator;
++import java.util.List;
++
++import space.salvador.dbo_quiz.Models.Ball;
++
++public class BallAdapter extends RecyclerView.Adapter<BallAdapter.BallViewHolder> {
++
++    private List<Ball> list;
++
++    public BallAdapter(List<Ball> list) {this.list = list;}
++
++    @Override
++    public BallViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
++        return new BallViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.rating_view_item, parent, false));
++
++    }
++    //Начало. Выведение логина и верных ответов
++    @Override
++    public void onBindViewHolder(@NonNull BallViewHolder holder, int position) {
++
++        Ball user = list.get(position);
++
++        int pos = position + 1;
++        String login = pos + " - " + user.login;
++
++        holder.login.setText(login);
++        //holder.level.setText(user.level); --убрал выведение название уровня
++        holder.correct.setText(user.correct);
++    }
++    @Override
++    public int getItemCount() {
++        return list.size();
++    }
++
++    class BallViewHolder extends RecyclerView.ViewHolder {
++
++        TextView login, level, correct;
++
++        public BallViewHolder (View itemView){
++            super(itemView);
++
++            login = itemView.findViewById(R.id.login);
++            //level = itemView.findViewById(R.id.level); --убрал выведение название уровня
++            correct = itemView.findViewById(R.id.correct);
++
++
++        }
++    }
++    //Конец. Выведение логина и верных ответов
++
++    //Добавил Неко начало
++    public void updateAdapter(List<Ball> list) {
++        this.list.clear();
++        this.list.addAll(list);
++        notifyDataSetChanged();
++    }
++    //Добавил Неко конец
++}
+Index: app/src/main/java/space/salvador/dbo_quiz/RatingActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/RatingActivity.java b/app/src/main/java/space/salvador/dbo_quiz/RatingActivity.java
+new file mode 100644
+--- /dev/null	(date 1671786140762)
++++ b/app/src/main/java/space/salvador/dbo_quiz/RatingActivity.java	(date 1671786140762)
+@@ -0,0 +1,133 @@
++package space.salvador.dbo_quiz;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.util.Log;
++import android.view.View;
++import android.view.Window;
++import android.view.WindowManager;
++import android.widget.ImageView;
++
++import androidx.annotation.NonNull;
++import androidx.annotation.Nullable;
++import androidx.appcompat.app.AppCompatActivity;
++import androidx.recyclerview.widget.LinearLayoutManager;
++import androidx.recyclerview.widget.RecyclerView;
++
++import com.google.firebase.database.DataSnapshot;
++import com.google.firebase.database.DatabaseError;
++import com.google.firebase.database.DatabaseReference;
++import com.google.firebase.database.FirebaseDatabase;
++import com.google.firebase.database.ValueEventListener;
++
++import java.util.ArrayList;
++import java.util.Collections;
++import java.util.Comparator;
++import java.util.List;
++import java.util.Objects;
++
++import space.salvador.dbo_quiz.Models.Ball;
++
++
++public class RatingActivity extends AppCompatActivity {
++    private int myBalls = 0;
++    private RecyclerView recyclerView;
++    private List<Ball> result;
++    private BallAdapter adapter;
++    private FirebaseDatabase database;
++    private DatabaseReference reference;
++
++
++    @Override
++    public void onCreate(@Nullable Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.rating_layout);
++        //Начало. Приложение во весь экран
++        Window w = getWindow();
++        w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
++        //Конец. Приложение во весь экран
++        database = FirebaseDatabase.getInstance();
++        reference = database.getReference("Ball");
++
++        result = new ArrayList<>();
++
++        recyclerView = findViewById(R.id.user_list);
++        recyclerView.setHasFixedSize(true);
++        LinearLayoutManager llm = new LinearLayoutManager(this);
++        llm.setOrientation(LinearLayoutManager.VERTICAL);
++
++        recyclerView.setLayoutManager(llm);
++
++        adapter = new BallAdapter(result);
++        recyclerView.setAdapter(adapter);
++
++        updateList();
++
++    }
++    //Начало. Код инфы рейтинга Неко
++    private void updateList(){
++        List<Ball> list = new ArrayList<>();
++        reference.addListenerForSingleValueEvent(new ValueEventListener() {
++            @Override
++            public void onDataChange(@NonNull DataSnapshot snapshot) {
++                for(DataSnapshot sd : snapshot.getChildren()){
++                    Ball ball = sd.getValue(Ball.class);
++                    if(ball != null) list.add(ball);
++                }
++
++                List<Ball> listBalls = new ArrayList<>();
++                for(Ball ball : list){
++                    if(listBalls.isEmpty()){
++                        listBalls.add(ball);
++                    } else {
++                        boolean isSame = false;
++                        int index = 0;
++                        for(int j = 0; j < listBalls.size(); j++){
++                            isSame = listBalls.get(j).login.equals(ball.login);
++                            if(isSame){
++                                index = j;
++                                break;
++                            }
++                        }
++                        if(!isSame){
++                            listBalls.add(ball);
++                        } else {
++                            String count = String.valueOf((Integer.parseInt(
++                                    listBalls.get(index).correct) + Integer.parseInt(ball.correct)));
++                            listBalls.set(index, new Ball(
++                                    ball.id,
++                                    count,
++                                    ball.incorrect,
++                                    ball.login,
++                                    ball.level
++                            ));
++                        }
++                    }
++                }
++                Collections.sort(listBalls, new Comparator<Ball>() {
++                    @Override
++                    public int compare(Ball bl, Ball br) {
++                        return Integer.parseInt(bl.getCorrect()) - Integer.parseInt(br.getCorrect());
++                    }
++                });
++
++                // listBalls.sort(Comparator.comparing(o -> o.correct));
++                Collections.reverse(listBalls);
++                adapter.updateAdapter(listBalls);
++            }
++            @Override
++            public void onCancelled(@NonNull DatabaseError error) {
++            }
++        });
++
++    }
++    //Конец. Код инфы рейтинга Неко
++
++    //Начало. Код кнопки назад
++    public void onClickbackbtn (View view)
++    {
++        startActivity(new Intent(RatingActivity.this, Login.class));
++        finish();
++    }
++    //Конец. Код кнопки назад
++}
+Index: app/src/main/java/space/salvador/dbo_quiz/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/MainActivity.java b/app/src/main/java/space/salvador/dbo_quiz/MainActivity.java
+new file mode 100644
+--- /dev/null	(date 1671785443229)
++++ b/app/src/main/java/space/salvador/dbo_quiz/MainActivity.java	(date 1671785443229)
+@@ -0,0 +1,153 @@
++package space.salvador.dbo_quiz;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.View;
++import android.view.Window;
++import android.view.WindowManager;
++import android.widget.Button;
++import android.widget.ImageView;
++import android.widget.LinearLayout;
++import android.widget.TextView;
++import android.widget.Toast;
++
++import java.util.Timer;
++
++public class MainActivity extends AppCompatActivity {
++
++    private String selectedTopic = "";
++    private TextView login2;
++    private String login3 = "";
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_main);
++        //Начало. Приложение во весь экран
++        Window w = getWindow();
++        w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
++        //Конец. Приложение во весь экран
++
++        final ImageView backBtn05 = findViewById(R.id.backBtn05);
++        final TextView login2 = findViewById(R.id.login2);
++
++        final LinearLayout line_1 = findViewById(R.id.line_1);
++        final LinearLayout line_2 = findViewById(R.id.line_2);
++        final LinearLayout line_3 = findViewById(R.id.line_3);
++        final LinearLayout line_4 = findViewById(R.id.line_4);
++        final LinearLayout line_5 = findViewById(R.id.line_5);
++
++        final Button startQuizBtn = findViewById(R.id.startQuizBtn);
++
++        //Начало. Получение логина с прошлой страницы
++        final String getlogin2 = getIntent().getStringExtra("login2");
++        login2.setText(getlogin2);
++        login3 = getIntent().getStringExtra("login2");
++        //Конец. Получение логина с прошлой страницы
++
++        //Начало. Код для выбора уровня
++        line_1.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                selectedTopic = "НОВИЧОК";
++                line_1.setBackgroundResource(R.drawable.round_back_white_stroke10);
++
++                line_2.setBackgroundResource(R.drawable.raund_back_white10);
++                line_3.setBackgroundResource(R.drawable.raund_back_white10);
++                line_4.setBackgroundResource(R.drawable.raund_back_white10);
++                line_5.setBackgroundResource(R.drawable.raund_back_white10);
++
++            }
++        });
++
++        line_2.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                selectedTopic = "СПЕЦИАЛИСТ";
++                line_2.setBackgroundResource(R.drawable.round_back_white_stroke10);
++
++                line_1.setBackgroundResource(R.drawable.raund_back_white10);
++                line_3.setBackgroundResource(R.drawable.raund_back_white10);
++                line_4.setBackgroundResource(R.drawable.raund_back_white10);
++                line_5.setBackgroundResource(R.drawable.raund_back_white10);
++            }
++        });
++
++        line_3.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                selectedTopic = "В.СПЕЦИАЛИСТ";
++                line_3.setBackgroundResource(R.drawable.round_back_white_stroke10);
++
++                line_2.setBackgroundResource(R.drawable.raund_back_white10);
++                line_1.setBackgroundResource(R.drawable.raund_back_white10);
++                line_4.setBackgroundResource(R.drawable.raund_back_white10);
++                line_5.setBackgroundResource(R.drawable.raund_back_white10);
++            }
++        });
++
++        line_4.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                selectedTopic = "Г.СПЕЦИАЛИСТ";
++                line_4.setBackgroundResource(R.drawable.round_back_white_stroke10);
++
++                line_2.setBackgroundResource(R.drawable.raund_back_white10);
++                line_3.setBackgroundResource(R.drawable.raund_back_white10);
++                line_1.setBackgroundResource(R.drawable.raund_back_white10);
++                line_5.setBackgroundResource(R.drawable.raund_back_white10);
++            }
++        });
++
++        line_5.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                selectedTopic = "ДЕЖУРНЫЙ";
++                line_5.setBackgroundResource(R.drawable.round_back_white_stroke10);
++
++                line_2.setBackgroundResource(R.drawable.raund_back_white10);
++                line_3.setBackgroundResource(R.drawable.raund_back_white10);
++                line_1.setBackgroundResource(R.drawable.raund_back_white10);
++                line_4.setBackgroundResource(R.drawable.raund_back_white10);
++            }
++        });
++        //Конец. Код для выбора уровня
++
++        //Начало. Код кнопки назад
++        backBtn05.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                startActivity(new Intent(MainActivity.this, Login.class));
++                finish();
++            }
++        });
++        //Конец. Код кнопки назад
++
++        //Начало. Код кнопки начать и отправки логина на следующую страницу
++        startQuizBtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                if (selectedTopic.isEmpty()) {
++                    Toast.makeText(MainActivity.this, "Выберите викторину", Toast.LENGTH_SHORT).show();
++                } else {
++                    Intent intent = new Intent(MainActivity.this, QuizActivity.class);
++                    intent.putExtra("selectedTopic", selectedTopic);
++                    intent.putExtra("login3", login3);
++                    startActivity(intent);
++                    finish();
++                }
++            }
++        });
++        //Конец. Код кнопки начать и отправки логина на следующую страницу
++    }
++
++    //Начало. Код кнопки андроида назад
++    @Override
++    public void onBackPressed() {
++        startActivity(new Intent(MainActivity.this, Login.class));
++        finish();
++    }
++    //Конец. Код кнопки андроида назад
++}
+\ No newline at end of file
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+new file mode 100644
+--- /dev/null	(date 1670074242000)
++++ b/app/build.gradle	(date 1670074242000)
+@@ -0,0 +1,58 @@
++plugins {
++    id 'com.android.application'
++    id 'com.google.gms.google-services'
++}
++
++android {
++    compileSdk 32
++
++    defaultConfig {
++        applicationId "space.salvador.dbo_quiz"
++        minSdk 21
++        targetSdk 32
++        versionCode 1
++        versionName "1.0"
++
++        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
++    }
++
++    buildTypes {
++        release {
++            minifyEnabled false
++            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
++        }
++    }
++    compileOptions {
++        sourceCompatibility JavaVersion.VERSION_1_8
++        targetCompatibility JavaVersion.VERSION_1_8
++    }
++    buildFeatures {
++        viewBinding true
++    }
++}
++
++dependencies {
++
++    implementation 'androidx.appcompat:appcompat:1.5.1'
++    implementation 'com.google.android.material:material:1.7.0'
++    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
++    implementation 'androidx.navigation:navigation-fragment:2.5.3'
++    implementation 'androidx.navigation:navigation-ui:2.5.3'
++    implementation 'com.google.firebase:firebase-firestore:24.4.1'
++    testImplementation 'junit:junit:4.13.2'
++    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
++    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
++    implementation platform('com.google.firebase:firebase-bom:31.1.0')
++    implementation 'com.google.firebase:firebase-analytics'
++
++    implementation 'com.google.firebase:firebase-auth:21.1.0'
++    implementation 'com.google.firebase:firebase-database:20.1.0'
++    implementation 'androidx.recyclerview:recyclerview:1.0.0'
++    implementation 'com.google.android.material:material:1.0.0'
++
++
++
++
++
++
++}
+\ No newline at end of file
+Index: app/proguard-rules.pro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/proguard-rules.pro b/app/proguard-rules.pro
+new file mode 100644
+--- /dev/null	(date 1667213096000)
++++ b/app/proguard-rules.pro	(date 1667213096000)
+@@ -0,0 +1,21 @@
++# Add project specific ProGuard rules here.
++# You can control the set of applied configuration files using the
++# proguardFiles setting in build.gradle.
++#
++# For more details, see
++#   http://developer.android.com/guide/developing/tools/proguard.html
++
++# If your project uses WebView with JS, uncomment the following
++# and specify the fully qualified class name to the JavaScript interface
++# class:
++#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
++#   public *;
++#}
++
++# Uncomment this to preserve the line number information for
++# debugging stack traces.
++#-keepattributes SourceFile,LineNumberTable
++
++# If you keep the line number information, uncomment this to
++# hide the original source file name.
++#-renamesourcefileattribute SourceFile
+\ No newline at end of file
+Index: app/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/.gitignore b/app/.gitignore
+new file mode 100644
+--- /dev/null	(date 1667213096000)
++++ b/app/.gitignore	(date 1667213096000)
+@@ -0,0 +1,1 @@
++/build
+\ No newline at end of file
+Index: app/google-services.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/google-services.json b/app/google-services.json
+new file mode 100644
+--- /dev/null	(date 1669218382000)
++++ b/app/google-services.json	(date 1669218382000)
+@@ -0,0 +1,77 @@
++{
++  "project_info": {
++    "project_number": "937852671083",
++    "firebase_url": "https://quizdbo-default-rtdb.firebaseio.com",
++    "project_id": "quizdbo",
++    "storage_bucket": "quizdbo.appspot.com"
++  },
++  "client": [
++    {
++      "client_info": {
++        "mobilesdk_app_id": "1:937852671083:android:ffba4c9c8a1631d58b4d2e",
++        "android_client_info": {
++          "package_name": "space.salvador.dbo_quiz"
++        }
++      },
++      "oauth_client": [
++        {
++          "client_id": "937852671083-ql9669jms0joutkkbnbe1sanh20s2s8b.apps.googleusercontent.com",
++          "client_type": 1,
++          "android_info": {
++            "package_name": "space.salvador.dbo_quiz",
++            "certificate_hash": "31e6cb822d4dc22a966f4b408cd7b2b5717c4b31"
++          }
++        },
++        {
++          "client_id": "937852671083-8qr7pa2mtkflnlmri0bdgs6kleumdmij.apps.googleusercontent.com",
++          "client_type": 3
++        }
++      ],
++      "api_key": [
++        {
++          "current_key": "AIzaSyDg9nuasgGFLbDazBpVwiSjdYqYw2JC5e4"
++        }
++      ],
++      "services": {
++        "appinvite_service": {
++          "other_platform_oauth_client": [
++            {
++              "client_id": "937852671083-8qr7pa2mtkflnlmri0bdgs6kleumdmij.apps.googleusercontent.com",
++              "client_type": 3
++            }
++          ]
++        }
++      }
++    },
++    {
++      "client_info": {
++        "mobilesdk_app_id": "1:937852671083:android:7f11fb9724ffcd258b4d2e",
++        "android_client_info": {
++          "package_name": "space.salvador.reg"
++        }
++      },
++      "oauth_client": [
++        {
++          "client_id": "937852671083-8qr7pa2mtkflnlmri0bdgs6kleumdmij.apps.googleusercontent.com",
++          "client_type": 3
++        }
++      ],
++      "api_key": [
++        {
++          "current_key": "AIzaSyDg9nuasgGFLbDazBpVwiSjdYqYw2JC5e4"
++        }
++      ],
++      "services": {
++        "appinvite_service": {
++          "other_platform_oauth_client": [
++            {
++              "client_id": "937852671083-8qr7pa2mtkflnlmri0bdgs6kleumdmij.apps.googleusercontent.com",
++              "client_type": 3
++            }
++          ]
++        }
++      }
++    }
++  ],
++  "configuration_version": "1"
++}
+\ No newline at end of file
+Index: settings.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/settings.gradle b/settings.gradle
+new file mode 100644
+--- /dev/null	(date 1667213096000)
++++ b/settings.gradle	(date 1667213096000)
+@@ -0,0 +1,16 @@
++pluginManagement {
++    repositories {
++        gradlePluginPortal()
++        google()
++        mavenCentral()
++    }
++}
++dependencyResolutionManagement {
++    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
++    repositories {
++        google()
++        mavenCentral()
++    }
++}
++rootProject.name = "DBO_Quiz"
++include ':app'
+Index: gradlew.bat
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/gradlew.bat b/gradlew.bat
+new file mode 100644
+--- /dev/null	(date 1667213096000)
++++ b/gradlew.bat	(date 1667213096000)
+@@ -0,0 +1,89 @@
++@rem
++@rem Copyright 2015 the original author or authors.
++@rem
++@rem Licensed under the Apache License, Version 2.0 (the "License");
++@rem you may not use this file except in compliance with the License.
++@rem You may obtain a copy of the License at
++@rem
++@rem      https://www.apache.org/licenses/LICENSE-2.0
++@rem
++@rem Unless required by applicable law or agreed to in writing, software
++@rem distributed under the License is distributed on an "AS IS" BASIS,
++@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++@rem See the License for the specific language governing permissions and
++@rem limitations under the License.
++@rem
++
++@if "%DEBUG%" == "" @echo off
++@rem ##########################################################################
++@rem
++@rem  Gradle startup script for Windows
++@rem
++@rem ##########################################################################
++
++@rem Set local scope for the variables with windows NT shell
++if "%OS%"=="Windows_NT" setlocal
++
++set DIRNAME=%~dp0
++if "%DIRNAME%" == "" set DIRNAME=.
++set APP_BASE_NAME=%~n0
++set APP_HOME=%DIRNAME%
++
++@rem Resolve any "." and ".." in APP_HOME to make it shorter.
++for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
++
++@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
++set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
++
++@rem Find java.exe
++if defined JAVA_HOME goto findJavaFromJavaHome
++
++set JAVA_EXE=java.exe
++%JAVA_EXE% -version >NUL 2>&1
++if "%ERRORLEVEL%" == "0" goto execute
++
++echo.
++echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
++echo.
++echo Please set the JAVA_HOME variable in your environment to match the
++echo location of your Java installation.
++
++goto fail
++
++:findJavaFromJavaHome
++set JAVA_HOME=%JAVA_HOME:"=%
++set JAVA_EXE=%JAVA_HOME%/bin/java.exe
++
++if exist "%JAVA_EXE%" goto execute
++
++echo.
++echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME%
++echo.
++echo Please set the JAVA_HOME variable in your environment to match the
++echo location of your Java installation.
++
++goto fail
++
++:execute
++@rem Setup the command line
++
++set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
++
++
++@rem Execute Gradle
++"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %*
++
++:end
++@rem End local scope for the variables with windows NT shell
++if "%ERRORLEVEL%"=="0" goto mainEnd
++
++:fail
++rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
++rem the _cmd.exe /c_ return code!
++if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
++exit /b 1
++
++:mainEnd
++if "%OS%"=="Windows_NT" endlocal
++
++:omega
+Index: gradle.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/gradle.properties b/gradle.properties
+new file mode 100644
+--- /dev/null	(date 1669730912000)
++++ b/gradle.properties	(date 1669730912000)
+@@ -0,0 +1,22 @@
++# Project-wide Gradle settings.
++# IDE (e.g. Android Studio) users:
++# Gradle settings configured through the IDE *will override*
++# any settings specified in this file.
++# For more details on how to configure your build environment visit
++# http://www.gradle.org/docs/current/userguide/build_environment.html
++# Specifies the JVM arguments used for the daemon process.
++# The setting is particularly useful for tweaking memory settings.
++org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
++# When configured, Gradle will run in incubating parallel mode.
++# This option should only be used with decoupled projects. More details, visit
++# http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects
++# org.gradle.parallel=true
++# AndroidX package structure to make it clearer which packages are bundled with the
++# Android operating system, and which are packaged with your app"s APK
++# https://developer.android.com/topic/libraries/support-library/androidx-rn
++android.useAndroidX=true
++# Enables namespacing of each library's R class so that its R class includes only the
++# resources declared in the library itself and none from the library's dependencies,
++# thereby reducing the size of the R class for that library
++android.nonTransitiveRClass=true
++android.enableJetifier=true
+\ No newline at end of file
+Index: app/src/main/java/space/salvador/dbo_quiz/QuizResults.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/QuizResults.java b/app/src/main/java/space/salvador/dbo_quiz/QuizResults.java
+new file mode 100644
+--- /dev/null	(date 1671791157168)
++++ b/app/src/main/java/space/salvador/dbo_quiz/QuizResults.java	(date 1671791157168)
+@@ -0,0 +1,100 @@
++package space.salvador.dbo_quiz;
++
++import androidx.appcompat.app.AppCompatActivity;
++import androidx.appcompat.widget.AppCompatButton;
++
++import android.content.Intent;
++import android.os.Bundle;
++import android.view.View;
++import android.view.Window;
++import android.view.WindowManager;
++import android.widget.TextView;
++
++import com.google.firebase.auth.FirebaseAuth;
++import com.google.firebase.database.DatabaseReference;
++import com.google.firebase.database.FirebaseDatabase;
++
++import java.util.List;
++
++import space.salvador.dbo_quiz.Models.Ball;
++
++public class QuizResults extends AppCompatActivity {
++    private TextView correctAnswears, incorrectAnswears, level, login4;
++    private DatabaseReference mDataBase;
++    private String Ball_KEY = "Ball";
++    private List<QuestionsList> questionsList;
++    private String selectedTopic = "";
++    private FirebaseAuth mAuth;
++    private String login5;
++    private String level5;
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_quiz_results);
++        init();
++
++        //Начало. Приложение во весь экран
++        Window w = getWindow();
++        w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
++        //Конец. Приложение во весь экран
++
++        final AppCompatButton startNewQuiz = findViewById(R.id.startNewQuizBtn);
++        final TextView correctAnswears = findViewById(R.id.correctAnswears);
++        final TextView incorrectAnswears = findViewById(R.id.incorrectAnswears);
++        final TextView level = findViewById(R.id.level);
++        final TextView login = findViewById(R.id.login);
++
++        //Начало. Получение логина с прошлой страницы
++        final String getSelectedTopic2 = getIntent().getStringExtra("login3");
++        login.setText(String.valueOf(getSelectedTopic2));
++        login5 = getIntent().getStringExtra("login3");
++        //Конец. Получение логина с прошлой страницы
++
++        //Начало. Получение названия уровня с прошлой страницы
++        String getSelectedTopic = getIntent().getStringExtra("sele");
++        level.setText(String.valueOf("Уровень: " + getSelectedTopic));
++        questionsList = QuestionsBank.qetQuestions(getSelectedTopic);
++        level5 = getIntent().getStringExtra("sele");
++        //Конец. Получение названия уровня с прошлой страницы
++
++        //Начало. Получение верных и неверных ответов
++        final int getCorrectAnswers = getIntent().getIntExtra("correct", 0);
++        final int getInCorrectAnswers = getIntent().getIntExtra("incorrect", 0);
++
++        correctAnswears.setText(String.valueOf("" + getCorrectAnswers) );
++        incorrectAnswears.setText(String.valueOf("" + getInCorrectAnswers));
++        //Конец. Получение верных и неверных ответов
++
++        //Начало. Код кнопки начать новую викторину и передача результата в БД
++        startNewQuiz.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                startActivity(new Intent(QuizResults.this, Login.class));
++                String id = mDataBase.getKey();
++                String correct = correctAnswears.getText().toString();
++                String incorrect = incorrectAnswears.getText().toString();
++                String login = login5.toString();
++                String level = level5.toString();
++                Ball newBall = new Ball (id, correct, incorrect, login, level);
++                mDataBase.push().setValue(newBall);
++                finish();
++            }
++        });
++        //Конец. Код кнопки начать новую викторину и передача результата в БД
++    }
++
++    public void init (){
++        correctAnswears = findViewById(R.id.correctAnswears);
++        incorrectAnswears = findViewById(R.id.incorrectAnswears);
++        mDataBase = FirebaseDatabase.getInstance().getReference(Ball_KEY);
++    }
++
++    //Начало. Код кнопки андроида назад
++    @Override
++    public void onBackPressed() {
++        startActivity(new Intent(QuizResults.this, MainActivity.class));
++        finish();
++    }
++    //Конец. Код кнопки андроида назад
++}
+\ No newline at end of file
+Index: app/src/main/java/space/salvador/dbo_quiz/Login.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/Login.java b/app/src/main/java/space/salvador/dbo_quiz/Login.java
+new file mode 100644
+--- /dev/null	(date 1671784300628)
++++ b/app/src/main/java/space/salvador/dbo_quiz/Login.java	(date 1671784300628)
+@@ -0,0 +1,228 @@
++package space.salvador.dbo_quiz;
++
++import static com.google.android.material.internal.ViewUtils.hideKeyboard;
++
++import android.content.Context;
++import android.content.Intent;
++import android.os.Bundle;
++import android.text.TextUtils;
++import android.view.View;
++import android.view.Window;
++import android.view.WindowManager;
++import android.view.inputmethod.InputMethodManager;
++import android.widget.Button;
++import android.widget.EditText;
++import android.widget.ImageView;
++import android.widget.TextView;
++import android.widget.Toast;
++
++import androidx.annotation.NonNull;
++import androidx.annotation.Nullable;
++import androidx.appcompat.app.AppCompatActivity;
++
++import com.google.android.gms.tasks.OnCompleteListener;
++import com.google.android.gms.tasks.Task;
++import com.google.firebase.auth.AuthResult;
++import com.google.firebase.auth.FirebaseAuth;
++import com.google.firebase.auth.FirebaseUser;
++
++public class Login extends AppCompatActivity {
++    private EditText edLogin, edPassword;
++    private FirebaseAuth mAuth;
++    private Button bGO, bSignUp, bSignIn, bSignOut, bExit, bRating;
++    private ImageView mainimgboy;
++    private TextView tvUser;
++    private String login2 = "";
++
++    @Override
++    protected void onCreate(@Nullable Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        //Начало. Приложение во весь экран
++        Window w = getWindow();
++        w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
++        setContentView(R.layout.activity_login);
++        //Конец. Приложение во весь экран
++        init();
++    }
++    //Начало. Логин в правом верхнем углу
++    @Override
++    protected void onStart() {
++        super.onStart();
++        FirebaseUser cUser = mAuth.getCurrentUser();
++        if (cUser != null)
++        {
++            showSigned();
++            String username = "Привет, " + cUser.getEmail();
++            tvUser.setText(username);
++            login2 = cUser.getEmail();
++        }
++        else
++        {
++            notshowSigned();
++        }
++    }
++    //Конец. Логин в правом верхнем углу
++    private void init()
++    {
++        mainimgboy = findViewById(R.id.mainimgboy);
++        bRating = findViewById(R.id.bRating);
++        bExit = findViewById(R.id.bExit);
++        bSignOut = findViewById(R.id.bRating);
++        tvUser = findViewById(R.id.tvUser);
++        bGO = findViewById(R.id.bGO);
++        bSignUp = findViewById(R.id.bSignUp);
++        bSignIn = findViewById(R.id.bSignIn);
++        edLogin = findViewById(R.id.edLogin);
++        edPassword = findViewById(R.id.edPassword);
++        mAuth = FirebaseAuth.getInstance();
++
++    }
++    //Начало. Код регистрации
++    public void onClickSignUp (View view)
++    {
++        if (!TextUtils.isEmpty(edLogin.getText().toString()) && !TextUtils.isEmpty(edPassword.getText().toString()))
++        {
++            mAuth.createUserWithEmailAndPassword(edLogin.getText().toString(), edPassword.getText().toString())
++                    .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
++                        @Override
++                        public void onComplete(@NonNull Task<AuthResult> task)
++                        {
++                            FirebaseUser cUser = mAuth.getCurrentUser();
++                            closeKeyboard();
++                            if (edPassword.getText().toString().length()<6) {
++                                Toast.makeText(getApplicationContext(),"Введите пароль, который более 5 символов!",Toast.LENGTH_SHORT).show();
++                            }
++                            else
++
++                            if (task.isSuccessful())
++                            {
++                                showSigned();
++                                String username = "Привет, " + cUser.getEmail();
++                                tvUser.setText(username);
++                                Toast.makeText(getApplicationContext(),"Пользователь успешно зарегистрирован!",Toast.LENGTH_SHORT).show();
++                            }
++                            else
++                            {
++                                notshowSigned();
++                                Toast.makeText(getApplicationContext(),"Ошибка регистрации!",Toast.LENGTH_SHORT).show();
++                            }
++
++                        }
++                    });
++
++        }
++
++        else
++        {
++
++            Toast.makeText(this,"Введите электронную почту и пароль!", Toast.LENGTH_SHORT).show();
++        }
++
++    }
++    //Конец. Код регистрации
++
++    //Начало. Код авторицаии
++    public void onClickSignIn (View view)
++    {
++        if (!TextUtils.isEmpty(edLogin.getText().toString()) && !TextUtils.isEmpty(edPassword.getText().toString()))
++        {
++            mAuth.signInWithEmailAndPassword(edLogin.getText().toString(),edPassword.getText().toString())
++                    .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
++                @Override
++                public void onComplete(@NonNull Task<AuthResult> task) {
++                    FirebaseUser cUser = mAuth.getCurrentUser();
++                    closeKeyboard();
++                    if (task.isSuccessful())
++                    {
++                        showSigned();
++                        String username = "Привет, " + cUser.getEmail();
++                        tvUser.setText(username);
++                        Toast.makeText(getApplicationContext(),"Пользователь успешно вошёл!",Toast.LENGTH_SHORT).show();
++                    }
++                    else
++                    {
++                        notshowSigned();
++                        Toast.makeText(getApplicationContext(),"Ошибка входа!",Toast.LENGTH_SHORT).show();
++                    }
++
++                }
++            });
++        }
++    }
++    //Конец. Код авторицаии
++
++    //Начало. Код выхода
++    public void onClickSignOut (View view)
++    {
++        FirebaseAuth.getInstance().signOut();
++        notshowSigned();
++    }
++    //Конец. Код выхода
++
++    //Начало. Код скрыть/показать
++    private void showSigned()
++    {
++        bGO.setVisibility(View.VISIBLE);
++        tvUser.setVisibility(View.VISIBLE);
++        bSignOut.setVisibility(View.VISIBLE);
++        edLogin.setVisibility(View.GONE);
++        edPassword.setVisibility(View.GONE);
++        bSignUp.setVisibility(View.GONE);
++        bSignIn.setVisibility(View.GONE);
++        bSignOut.setVisibility(View.VISIBLE);
++        bExit.setVisibility(View.VISIBLE);
++        mainimgboy.setVisibility(View.VISIBLE);
++    }
++    private void notshowSigned()
++    {
++        bGO.setVisibility(View.GONE);
++        tvUser.setVisibility(View.GONE);
++        edLogin.setVisibility(View.VISIBLE);
++        edPassword.setVisibility(View.VISIBLE);
++        bSignUp.setVisibility(View.VISIBLE);
++        bSignIn.setVisibility(View.VISIBLE);
++        bSignOut.setVisibility(View.GONE);
++        bExit.setVisibility(View.GONE);
++        bRating.setVisibility(View.GONE);
++        mainimgboy.setVisibility(View.GONE);
++    }
++    //Конец. Код скрыть/показать
++
++    //Начало. Передача логина на следующую страницу
++    public void onClickGO (View view)
++    {
++        Intent i = new Intent(Login.this, MainActivity.class);
++        i.putExtra("login2", login2);
++        startActivity(i);
++    }
++    //Конец. Передача логина на следующую страницу
++
++    public void onClickRating(View view){
++        Intent i = new Intent(Login.this, RatingActivity.class);
++        startActivity(i);
++    }
++    public void onClickExit (View view)
++    {
++        FirebaseAuth.getInstance().signOut();
++        bGO.setVisibility(View.GONE);
++        tvUser.setVisibility(View.GONE);
++        edLogin.setVisibility(View.VISIBLE);
++        edPassword.setVisibility(View.VISIBLE);
++        bSignUp.setVisibility(View.VISIBLE);
++        bSignIn.setVisibility(View.VISIBLE);
++        bExit.setVisibility(View.GONE);
++        bRating.setVisibility(View.GONE);
++        mainimgboy.setVisibility(View.GONE);
++
++    }
++
++    //Начало. Код скрытия клавиатуры
++    private void closeKeyboard() {
++        View view = this.getCurrentFocus();
++        if (view != null) {
++            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
++            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
++        }
++    }
++    //Конец. Код скрытия клавиатуры
++}
+\ No newline at end of file
+Index: app/src/main/java/space/salvador/dbo_quiz/QuizActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/QuizActivity.java b/app/src/main/java/space/salvador/dbo_quiz/QuizActivity.java
+new file mode 100644
+--- /dev/null	(date 1671785443226)
++++ b/app/src/main/java/space/salvador/dbo_quiz/QuizActivity.java	(date 1671785443226)
+@@ -0,0 +1,314 @@
++package space.salvador.dbo_quiz;
++
++import androidx.appcompat.app.AppCompatActivity;
++import androidx.appcompat.widget.AppCompatButton;
++
++import android.content.Intent;
++import android.graphics.Color;
++import android.os.Bundle;
++import android.view.View;
++import android.view.Window;
++import android.view.WindowManager;
++import android.widget.ImageView;
++import android.widget.TextView;
++import android.widget.Toast;
++
++import java.util.List;
++import java.util.Timer;
++import java.util.TimerTask;
++
++public class QuizActivity extends AppCompatActivity {
++
++    private TextView questions;
++    private TextView question;
++    private TextView login2;
++    private String login3 = "";
++    private String selectedTopic = "";
++
++    private AppCompatButton option1, option2, option3, option4;
++    private AppCompatButton nextBtn;
++
++    private Timer quizTimer;
++
++    private int seconds = 0;
++    private int totalTimeInMins = 10;
++
++    private List<QuestionsList> questionsList;
++
++    private int currentQuestionPosition = 0;
++    private String selectedOptionByUser = "";
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_quiz);
++
++        final ImageView backBtn = findViewById(R.id.backBtn);
++        final TextView timer = findViewById(R.id.timer);
++        final TextView selectedTopicName = findViewById(R.id.level);
++
++        questions = findViewById(R.id.questions);
++        question = findViewById(R.id.question);
++
++        option1 = findViewById(R.id.option1);
++        option2 = findViewById(R.id.option2);
++        option3 = findViewById(R.id.option3);
++        option4 = findViewById(R.id.option4);
++        login2 = findViewById(R.id.login2);
++        nextBtn = findViewById(R.id.nextBtn);
++
++        //Начало. Приложение во весь экран
++        Window w = getWindow();
++        w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
++        //Конец. Приложение во весь экран
++
++
++
++        final String getSelectedTopic = getIntent().getStringExtra("selectedTopic");
++
++        selectedTopicName.setText(getSelectedTopic);
++
++        questionsList = QuestionsBank.qetQuestions(getSelectedTopic);
++
++        selectedTopic = getIntent().getStringExtra("selectedTopic");
++
++        //Начало. Получение логина с прошлой страницы
++        final String getSelectedTopic2 = getIntent().getStringExtra("login3");
++        login2.setText(getSelectedTopic2);
++        login3 = getIntent().getStringExtra("login3");
++        //Конец. Получение логина с прошлой страницы
++
++        startTimer(timer);
++
++        questions.setText((currentQuestionPosition+1)+"/"+questionsList.size());
++        question.setText(questionsList.get(0).getQuastion());
++        option1.setText(questionsList.get(0).getOption1());
++        option2.setText(questionsList.get(0).getOption2());
++        option3.setText(questionsList.get(0).getOption3());
++        option4.setText(questionsList.get(0).getOption4());
++
++        //Начало. Кнопка назад
++        backBtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                quizTimer.purge();
++                quizTimer.cancel();
++                startActivity(new Intent(QuizActivity.this, MainActivity.class));
++                finish();
++            }
++        });
++        //Конец. Кнопка назад
++
++        //Начало. Код выбора ответа
++        option1.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                if (selectedOptionByUser.isEmpty()){
++                    selectedOptionByUser = option1.getText().toString();
++                    option1.setBackgroundResource(R.drawable.round_back_red10);
++                    option1.setTextColor(Color.WHITE);
++                    revealAnswer();
++                    questionsList.get(currentQuestionPosition).setUserSelectedAnswer(selectedOptionByUser);
++                }
++            }
++        });
++
++        option2.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                if (selectedOptionByUser.isEmpty()){
++                    selectedOptionByUser = option2.getText().toString();
++                    option2.setBackgroundResource(R.drawable.round_back_red10);
++                    option2.setTextColor(Color.WHITE);
++                    revealAnswer();
++                    questionsList.get(currentQuestionPosition).setUserSelectedAnswer(selectedOptionByUser);
++                }
++            }
++        });
++
++        option3.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                if (selectedOptionByUser.isEmpty()){
++                    selectedOptionByUser = option3.getText().toString();
++                    option3.setBackgroundResource(R.drawable.round_back_red10);
++                    option3.setTextColor(Color.WHITE);
++                    revealAnswer();
++                    questionsList.get(currentQuestionPosition).setUserSelectedAnswer(selectedOptionByUser);
++                }
++            }
++        });
++
++        option4.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                if (selectedOptionByUser.isEmpty()){
++                    selectedOptionByUser = option4.getText().toString();
++                    option4.setBackgroundResource(R.drawable.round_back_red10);
++                    option4.setTextColor(Color.WHITE);
++                    revealAnswer();
++                    questionsList.get(currentQuestionPosition).setUserSelectedAnswer(selectedOptionByUser);
++                }
++            }
++        });
++        //Конец. Код выбора ответа
++
++        //Начало. Код кнопки следующий вопрос
++        nextBtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View view) {
++                if (selectedOptionByUser.isEmpty()) {
++                    Toast.makeText(QuizActivity.this, "Пожалуйста сделайте выбор", Toast.LENGTH_SHORT).show();
++                } else {
++                    changeNextQuastion();
++                }
++            }
++        });
++        //Конец. Код кнопки следующий вопрос
++    }
++
++    //Начало. Код таймера и передачи логина на следующую страницу
++    private void startTimer (TextView timerTextView) {
++        quizTimer = new Timer();
++        quizTimer.scheduleAtFixedRate(new TimerTask() {
++            @Override
++            public void run() {
++                if (seconds == 0){
++                    totalTimeInMins--;
++                    seconds = 59;
++                } else if (seconds ==0 && totalTimeInMins ==0) {
++                    quizTimer.purge();
++                    quizTimer.cancel();
++                    Toast.makeText(QuizActivity.this,"Время вышло",Toast.LENGTH_SHORT).show();
++
++                    Intent intent = new Intent(QuizActivity.this, QuizResults.class);
++                    intent.putExtra( "correct", getCorrectAnswers());
++                    intent.putExtra("incorrect",getInCorrectAnswers());
++                    intent.putExtra("login3", login3);
++                    startActivity(intent);
++                    finish();
++                }
++                else {
++                    seconds --;
++                }
++                runOnUiThread(new Runnable() {
++                    @Override
++                    public void run() {
++                        String finalMinutes = String.valueOf(totalTimeInMins);
++                        String finalSeconds = String.valueOf(seconds);
++
++                        if (finalMinutes.length() == 1) {
++                            finalMinutes = "0"+finalMinutes;
++                        }
++                        if (finalSeconds.length() ==1) {
++                            finalSeconds = "0"+finalSeconds;
++                        }
++                        timerTextView.setText(finalMinutes+ ":" + finalSeconds);
++                    }
++                });
++            }
++        },1000,1000);
++
++
++    }
++    //Конец. Код таймера и передачи логина на следующую страницу
++
++    //Начало. Подсчет верных и неверных ответов
++    private int getCorrectAnswers (){
++        int correctAnswers = 0;
++        for (int i = 0; i < questionsList.size() ;i++){
++            final String getUserSelectedAnswer = questionsList.get(i).getUserSelectedAnswer();
++            final String getAnswer = questionsList.get(i).getAnswer();
++
++            if (getUserSelectedAnswer.equals(getAnswer)) {
++                correctAnswers++;
++            }
++        }
++        return correctAnswers;
++    }
++    private int getInCorrectAnswers (){
++
++        int correctAnswers = 0;
++
++        for (int i = 0; i < questionsList.size() ;i++){
++
++            final String getUserSelectedAnswer = questionsList.get(i).getUserSelectedAnswer();
++            final String getAnswer = questionsList.get(i).getAnswer();
++
++            if (!getUserSelectedAnswer.equals(getAnswer)) {
++                correctAnswers++;
++            }
++        }
++        return correctAnswers;
++    }
++    //Конец. Подсчет верных и неверных ответов
++
++    //Начало. Код кнопки андроида назад
++    @Override
++    public void onBackPressed() {
++        quizTimer.purge();
++        quizTimer.cancel();
++        startActivity(new Intent(QuizActivity.this, MainActivity.class));
++        finish();
++    }
++    //Начало. Код кнопки андроида назад
++
++    //Начало. Код покраски верного ответа и передача данных на следующую страницу
++    private void revealAnswer (){
++        final String getAnswer = questionsList.get(currentQuestionPosition).getAnswer();
++        if (option1.getText().toString().equals(getAnswer)) {
++            option1.setBackgroundResource(R.drawable.round_back_green10);
++            option1.setTextColor(Color.WHITE);
++        }
++        else if  (option2.getText().toString().equals(getAnswer)) {
++            option2.setBackgroundResource(R.drawable.round_back_green10);
++            option2.setTextColor(Color.WHITE);
++        }
++        else if  (option3.getText().toString().equals(getAnswer)) {
++            option3.setBackgroundResource(R.drawable.round_back_green10);
++            option3.setTextColor(Color.WHITE);
++        }
++        else if (option4.getText().toString().equals(getAnswer)) {
++            option4.setBackgroundResource(R.drawable.round_back_green10);
++            option4.setTextColor(Color.WHITE);
++        }
++    }
++
++    private void changeNextQuastion () {
++        currentQuestionPosition++;
++        if ((currentQuestionPosition+1) == questionsList.size()) {
++            nextBtn.setText("Готово");
++        }
++        if (currentQuestionPosition < questionsList.size()){
++            selectedOptionByUser = "";
++            option1.setBackgroundResource(R.drawable.round_back_white_stoke2_10);
++            option1.setTextColor(Color.parseColor("#1F6BB8"));
++
++            option2.setBackgroundResource(R.drawable.round_back_white_stoke2_10);
++            option2.setTextColor(Color.parseColor("#1F6BB8"));
++
++            option3.setBackgroundResource(R.drawable.round_back_white_stoke2_10);
++            option3.setTextColor(Color.parseColor("#1F6BB8"));
++
++            option4.setBackgroundResource(R.drawable.round_back_white_stoke2_10);
++            option4.setTextColor(Color.parseColor("#1F6BB8"));
++
++            questions.setText((currentQuestionPosition+1)+"/"+questionsList.size());
++            question.setText(questionsList.get(currentQuestionPosition).getQuastion());
++            option1.setText(questionsList.get(currentQuestionPosition).getOption1());
++            option2.setText(questionsList.get(currentQuestionPosition).getOption2());
++            option3.setText(questionsList.get(currentQuestionPosition).getOption3());
++            option4.setText(questionsList.get(currentQuestionPosition).getOption4());
++        }
++        else {
++            Intent intent = new Intent(QuizActivity.this, QuizResults.class);
++            intent.putExtra("correct", getCorrectAnswers());
++            intent.putExtra("incorrect",getInCorrectAnswers());
++            intent.putExtra("sele", selectedTopic);
++            intent.putExtra("login3", login3);
++            startActivity(intent);
++            finish();
++        }
++    }
++    //Начало. Код покраски верного ответа и передача данных на следующую страницу
++}
+\ No newline at end of file
+Index: app/src/main/java/space/salvador/dbo_quiz/QuestionsBank.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/space/salvador/dbo_quiz/QuestionsBank.java b/app/src/main/java/space/salvador/dbo_quiz/QuestionsBank.java
+new file mode 100644
+--- /dev/null	(date 1671716676682)
++++ b/app/src/main/java/space/salvador/dbo_quiz/QuestionsBank.java	(date 1671716676682)
+@@ -0,0 +1,276 @@
++package space.salvador.dbo_quiz;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class QuestionsBank {
++
++    private static List<QuestionsList> line_1Questions() {
++
++        final List<QuestionsList> questionsList = new ArrayList<>();
++
++        final QuestionsList question1 = new QuestionsList("Что такое ДБО?",
++                "Дистанционное банковское обслуживаение.", "Динамичное банковское обслуживание.", "Депортамент бизнес онлайн.", "Банковское мобильное приложение.",
++                "Дистанционное банковское обслуживаение.", "");
++
++        final QuestionsList question2 = new QuestionsList("Что такое ОСДБО?",
++                "Отдел систем ДБО.", "Операционная система ДБО.", "Основная система ДБО.", "Очень важное ДБО.",
++                "Отдел систем ДБО.", "");
++
++        final QuestionsList question3 = new QuestionsList("Что такое Kibana?",
++                "ПО для создания обращении.", "ПО для закрытия карт.", "Сервис регистрации клиентов.", "ПО для просмотра логов.",
++                "ПО для просмотра логов.", "");
++        final QuestionsList question4 = new QuestionsList("Что такое Grafana?",
++                "Свободная программная система визуализации данных, ориентированная на звонки клиентов.", "ПО для просмотра логов.", "Свободная программная система визуализации данных, ориентированная на данные систем ИТ-мониторинга.", "Свободная операционная система, ориентированная на вывод графиков из Excel.",
++                "Свободная программная система визуализации данных, ориентированная на данные систем ИТ-мониторинга.", "");
++        final QuestionsList question5 = new QuestionsList("Откуда Grafana получает инфо для вывода графиков и диаграмм?",
++                "Из Omnitracker.", "Из базы данных OKA.", "Из таблиц получаемых с помощью sql запросов.", "Из Kibana.",
++                "Из таблиц получаемых с помощью sql запросов.", "");
++        final QuestionsList question6 = new QuestionsList("Что такое Omnitracker?",
++                "ПО для создания обращении.", "ПО для просмотров логов.", "ПО для проверки sql запросов.", "ПО для проверки скорости интернет соединения.",
++                "ПО для создания обращении.", "");
++        final QuestionsList question7 = new QuestionsList("Что такое Siebel?",
++                "Мастер система, где хранятся все данные о платежах (проводки), кредитах, депозитах клиентов.", "Мастер система, где хранятся все обращения клиентов.", "Мастер система, где хранятся данные клиентов, а также заявки на кредит.", "Свободная программная система визуализации данных, ориентированная на данные систем ИТ-мониторинга.",
++                "Мастер система, где хранятся данные клиентов, а также заявки на кредит.", "");
++        final QuestionsList question8 = new QuestionsList("Что такое ЦФТ?",
++                "Свободная программная система визуализации данных, ориентированная на данные систем ИТ-мониторинга.", "Пространство для команд, в котором накопленные знания объединены с возможностями для совместной работы.", "Мастер система, где хранятся все данные о платежах (проводки), кредитах, депозитах клиентов.", "ПО для создания обращении.",
++                "Мастер система, где хранятся все данные о платежах (проводки), кредитах, депозитах клиентов.", "");
++        final QuestionsList question9 = new QuestionsList("Что такое Confluence?",
++                "Пространство для команд, в котором накопленные знания объединены с возможностями для совместной работы.", "Пространство для создания sql запросов", "Пространство для команд, в котором сотрудники прогревают справочники.", "Личный кабиент сотрудников ДИТО.",
++                "Пространство для команд, в котором накопленные знания объединены с возможностями для совместной работы.", "");
++        final QuestionsList question10 = new QuestionsList("Что такое SCS?",
++                "Мастер система, где хранятся все данные о платежах (проводки), кредитах, депозитах клиентов.", "Свободная программная система визуализации данных, ориентированная на данные систем ИТ-мониторинга.", "ПО для создания обращении.", "Самописное ПО для работы сотрудников ОСДБО.",
++                "Самописное ПО для работы сотрудников ОСДБО.", "");
++
++        questionsList.add(question1);
++        questionsList.add(question2);
++        questionsList.add(question3);
++        questionsList.add(question4);
++        questionsList.add(question5);
++        questionsList.add(question6);
++        questionsList.add(question7);
++        questionsList.add(question8);
++        questionsList.add(question9);
++        questionsList.add(question10);
++
++        return questionsList;
++    }
++
++    private static List<QuestionsList> line_2Questions() {
++
++        final List<QuestionsList> questionsList = new ArrayList<>();
++
++        final QuestionsList question1 = new QuestionsList("Какой формат у установочного файл мобильного приложения для Android?",
++                ".IPA", ".APK", ".EXE", ".MP3",
++                ".APK", "");
++
++        final QuestionsList question2 = new QuestionsList("Сколько времени хранятся логи в Kibana?",
++                "Для МБ - 10 дней, для ИБ - 5 дней (+ текущий).", "Для МБ - 20 дней, для ИБ - 5 дней (+ текущий).", "Для МБ - 20 дней, для ИБ - 5 дней (+ текущий).", "Для МБ - 3 месяца, для ИБ - 5 дней (+ текущий).",
++                "Для МБ - 20 дней, для ИБ - 5 дней (+ текущий).", "");
++
++        final QuestionsList question3 = new QuestionsList("Сколько времени хранятся логи в HelpDesk?",
++                "3 месяца.", "Также как и в Kibana.", "10 дней.", "3 дня.",
++                "3 месяца.", "");
++        final QuestionsList question4 = new QuestionsList("В каком ПО добавляется возможность закрытия карт?",
++                "Kibana.", "Grafana.", "Omnitracker.", "HelpDesk.",
++                "HelpDesk.", "");
++        final QuestionsList question5 = new QuestionsList("Какой стандартный SLA обращения для Сопровождения МКБ Онлайн?",
++                "8 рабочих часов.", "24 рабочих часа.", "4 рабочих часа.", "30 минут.",
++                "24 рабочих часа.", "");
++        final QuestionsList question6 = new QuestionsList("Какой стандартный SLA обращений со статусом высокий?",
++                "8 рабочих часов.", "30 минут.", "60 минут.", "2 рабочих часа.",
++                "8 рабочих часов.", "");
++        final QuestionsList question7 = new QuestionsList("Где посмотреть SLA обращения?",
++                "SCS->обращение->контроль-срок.", "Omnitracker->обращение->карточка учета-срок.", "Omnitracker->обращение->контроль-срок.", "Omnitracker->примечание->контроль-срок.",
++                "Omnitracker->обращение->контроль-срок.", "");
++        final QuestionsList question8 = new QuestionsList("Что такое препрод?",
++                "Версия МБ/ИБ идентичная или максимально приближенная к боевой версии.", "ПО для просмотров логов.", "Мастер система, где хранятся данные клиентов, а также заявки на кредит.", "Пространство для команд, в котором сотрудники прогревают справочники.",
++                "Версия МБ/ИБ идентичная или максимально приближенная к боевой версии.", "");
++        final QuestionsList question9 = new QuestionsList("ПДля чего используется JIRA",
++                "Для создания задача на разработчиков.", "Для создания обращении клиентами.", "Для создания конференции со смежными отделами.", "Для выгрузки логов с контуров.",
++                "Для создания задача на разработчиков.", "");
++        final QuestionsList question10 = new QuestionsList("Что такое стрим, в пониманий Сопровождения МКБ Онлайн?",
++                "Команда разработчиков отвечающая за весь МКБ Онлайн.", "Команда разработчиков SCS.", "Команда разработчиков занимающие опредленной частью Мкб Онлайн.", "Трансляция на Twith.",
++                "Команда разработчиков занимающие опредленной частью Мкб Онлайн.", "");
++
++        questionsList.add(question1);
++        questionsList.add(question2);
++        questionsList.add(question3);
++        questionsList.add(question4);
++        questionsList.add(question5);
++        questionsList.add(question6);
++        questionsList.add(question7);
++        questionsList.add(question8);
++        questionsList.add(question9);
++        questionsList.add(question10);
++
++        return questionsList;
++    }
++
++    private static List<QuestionsList> line_3Questions() {
++
++        final List<QuestionsList> questionsList = new ArrayList<>();
++
++        final QuestionsList question1 = new QuestionsList("В какой форме в БД хранится информация об основных свойствах сущностей предметной области, моделью которой является БД?",
++                "в таблицах.", "в индексах.", "в коллекциях.", "в пакетах.",
++                "в таблицах.", "");
++        final QuestionsList question2 = new QuestionsList("Запросы какого типа используются для получения информации из БД?",
++                "delete.", "update.", "select.", "insert.",
++                "select.", "");
++        final QuestionsList question3 = new QuestionsList("Какое ключевое слово в запросе предшествует имени таблицы, из которой выбираются данные?",
++                "where.", "in.", "order.", "from.",
++                "from.", "");
++        final QuestionsList question4 = new QuestionsList("Вам надо произвести действие лишь с некоторыми записями, а не со всеми записями в таблице. Каким ключевым словом вы в запросе обозначите начало описания условия?",
++                "on.", "where.", "in.", "having.",
++                "where.", "");
++        final QuestionsList question5 = new QuestionsList("Как в БД формально отражаются связи межу сущностями предметной области?",
++                "индексом.", "внешним ключом.", "одинаковыми полями в таблицах.", "триггером.",
++                "внешним ключом.", "");
++        final QuestionsList question6 = new QuestionsList("Вам надо получить данные об объекте из нескольких таблиц, в одной содержится основная информация, в другой дополнительная. Как вы укажите в запросе доп. таблицу?",
++                "join.", "union.", "connect.", "also from.",
++                "join.", "");
++        final QuestionsList question7 = new QuestionsList(" Как называется набор полей в таблице, такой, что в каждой записи этой таблицы набор значений этих полей уникален?",
++                "первичный ключ.", "ключ.", "внешний ключ.", "определитель.",
++                "ключ.", "");
++        final QuestionsList question8 = new QuestionsList("Вам нужно подсчитать к-во записей в таблице, удовлетворяющих какому-то условию. Какую агрегатную функцию вы используете для этого?",
++                "sum().", "count().", "ave().", "total().",
++                "count().", "");
++        final QuestionsList question9 = new QuestionsList("Какова практическая польза от индексов?",
++                "никакой, только место занимают.", "обеспечивают непротиворечивость информации в БД.", "ускоряют исполнение запросов.", "сохраняют информацию на случай повреждения таблицы.",
++                "ускоряют исполнение запросов.", "");
++        final QuestionsList question10 = new QuestionsList("Вы создали таблицу. Вам надо отслеживать, например, логировать, изменения данных в этой таблице производимые др. пользователями. Каким инструментом вы воспользуетесь?",
++                "видеокамерой.", "триггером.", "хранимой процедурой.", "партицией.",
++                "триггером.", "");
++
++        questionsList.add(question1);
++        questionsList.add(question2);
++        questionsList.add(question3);
++        questionsList.add(question4);
++        questionsList.add(question5);
++        questionsList.add(question6);
++        questionsList.add(question7);
++        questionsList.add(question8);
++        questionsList.add(question9);
++        questionsList.add(question10);
++
++        return questionsList;
++    }
++
++    private static List<QuestionsList> line_4Questions() {
++
++        final List<QuestionsList> questionsList = new ArrayList<>();
++
++        final QuestionsList question1 = new QuestionsList("Какой формат у установочного файл мобильного приложения для IOS?",
++                ".APK", ".IPA", ".EXE", ".MP3",
++                ".IPA", "");
++
++        final QuestionsList question2 = new QuestionsList("На каком языке написано ПО SCS?",
++                "Java.", "Python.", "delphi.", "PHP.",
++                "delphi.", "");
++
++        final QuestionsList question3 = new QuestionsList("Кто создал SCS?",
++                "Дональд Чемберлин и Рэймонд Бойс.", "Сергей Губарев.", "Дмитрий Черненилов.", "Тим Кук.",
++                "Сергей Губарев.", "");
++        final QuestionsList question4 = new QuestionsList("На чем основано ПО SCS?",
++                "На синхронизации с Kibana.", "На синхронизации с Grafana.", "На запросах SQL.", "На синхронизации с HelpDesk.",
++                "На запросах SQL.", "");
++        final QuestionsList question5 = new QuestionsList("Введите запрос в Kibana для поиска баланса в МБ?",
++                "Код клиента и баланс.", "KK AND GetFreeServiceConditions.", "KK AND GetBalance.", "КК AND totalBalance.",
++                "КК AND totalBalance.", "");
++        final QuestionsList question6 = new QuestionsList("Что такое МСС код?",
++                "четырехзначный код, обозначающий адрес торговой точки", "четырехзначный код, обозначающий категорию платежной операции..", "четырехзначный код, обозначающий время выполнения операции.", "шестизначный код, обозначающий категорию платежной операции.",
++                "четырехзначный код, обозначающий категорию платежной операции..", "");
++        final QuestionsList question7 = new QuestionsList("Где находятся картинки МБ?",
++                "БД ORA.", "Woodside.", "БД SYBASE.", "Siebel.",
++                "Woodside.", "");
++        final QuestionsList question8 = new QuestionsList("Где можно вкл/выкл фичфлаги?",
++                "Woodside.", "БД ORA.", "БД SYBASE.", "Siebel.",
++                "Woodside.", "");
++        final QuestionsList question9 = new QuestionsList("Возможно ли достать QR ЖКХ и привести его в вид QR кода?",
++                "ДА, в логах можно найти картинку QR кода.", "Да, с длинного кода из логов и NotePad++.", "Нет, данная информация не логируется.", "Нет, информация логируется в виде длинного кода, который невозможно расшифровать.",
++                "Да, с длинного кода из логов и NotePad++.", "");
++        final QuestionsList question10 = new QuestionsList("Где можно посмотреть арест/испольнительный на счете?",
++                "В Siebel.", "В Kibana.", "В ЦФТ.", "В HelpDesk.",
++                "В ЦФТ.", "");
++
++        questionsList.add(question1);
++        questionsList.add(question2);
++        questionsList.add(question3);
++        questionsList.add(question4);
++        questionsList.add(question5);
++        questionsList.add(question6);
++        questionsList.add(question7);
++        questionsList.add(question8);
++        questionsList.add(question9);
++        questionsList.add(question10);
++
++        return questionsList;
++    }
++
++    private static List<QuestionsList> line_5Questions() {
++
++        final List<QuestionsList> questionsList = new ArrayList<>();
++
++        final QuestionsList question1 = new QuestionsList("Тестовый вопрос?",
++                ".APK", ".IPA", ".EXE", ".MP3",
++                ".IPA", "");
++
++        final QuestionsList question2 = new QuestionsList("На каком языке написано ПО SCS?",
++                "Java.", "Python.", "delphi.", "PHP.",
++                "delphi.", "");
++
++        final QuestionsList question3 = new QuestionsList("Кто создал SCS?",
++                "Дональд Чемберлин и Рэймонд Бойс.", "Сергей Губарев.", "Дмитрий Черненилов.", "Тим Кук.",
++                "Сергей Губарев.", "");
++        final QuestionsList question4 = new QuestionsList("На чем основано ПО SCS?",
++                "На синхронизации с Kibana.", "На синхронизации с Grafana.", "На запросах SQL.", "На синхронизации с HelpDesk.",
++                "На запросах SQL.", "");
++        final QuestionsList question5 = new QuestionsList("Введите запрос в Kibana для поиска баланса в МБ?",
++                "Код клиента и баланс.", "KK AND GetFreeServiceConditions.", "KK AND GetBalance.", "КК AND totalBalance.",
++                "КК AND totalBalance.", "");
++        final QuestionsList question6 = new QuestionsList("Что такое МСС код?",
++                "четырехзначный код, обозначающий адрес торговой точки", "четырехзначный код, обозначающий категорию платежной операции..", "четырехзначный код, обозначающий время выполнения операции.", "шестизначный код, обозначающий категорию платежной операции.",
++                "четырехзначный код, обозначающий категорию платежной операции..", "");
++        final QuestionsList question7 = new QuestionsList("Где находятся картинки МБ?",
++                "БД ORA.", "Woodside.", "БД SYBASE.", "Siebel.",
++                "Woodside.", "");
++        final QuestionsList question8 = new QuestionsList("Где можно вкл/выкл фичфлаги?",
++                "Woodside.", "БД ORA.", "БД SYBASE.", "Siebel.",
++                "Woodside.", "");
++        final QuestionsList question9 = new QuestionsList("Возможно ли достать QR ЖКХ и привести его в вид QR кода?",
++                "ДА, в логах можно найти картинку QR кода.", "Да, с длинного кода из логов и NotePad++.", "Нет, данная информация не логируется.", "Нет, информация логируется в виде длинного кода, который невозможно расшифровать.",
++                "Да, с длинного кода из логов и NotePad++.", "");
++        final QuestionsList question10 = new QuestionsList("Где можно посмотреть арест/испольнительный на счете?",
++                "В Siebel.", "В Kibana.", "В ЦФТ.", "В HelpDesk.",
++                "В ЦФТ.", "");
++
++        questionsList.add(question1);
++        questionsList.add(question2);
++        questionsList.add(question3);
++        questionsList.add(question4);
++        questionsList.add(question5);
++        questionsList.add(question6);
++        questionsList.add(question7);
++        questionsList.add(question8);
++        questionsList.add(question9);
++        questionsList.add(question10);
++
++        return questionsList;
++    }
++
++    public static List<QuestionsList> qetQuestions(String selectedTopicName) {
++        switch (selectedTopicName) {
++            case "НОВИЧОК":
++                return line_1Questions();
++            case "СПЕЦИАЛИСТ":
++                return line_2Questions();
++            case "В.СПЕЦИАЛИСТ":
++                return line_3Questions();
++            case "ДЕЖУРНЫЙ":
++                return line_5Questions();
++            default:
++                return line_4Questions();
++
++        }
++    }
++}
+Index: gradlew
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/gradlew b/gradlew
+new file mode 100644
+--- /dev/null	(date 1667213096000)
++++ b/gradlew	(date 1667213096000)
+@@ -0,0 +1,185 @@
++#!/usr/bin/env sh
++
++#
++# Copyright 2015 the original author or authors.
++#
++# Licensed under the Apache License, Version 2.0 (the "License");
++# you may not use this file except in compliance with the License.
++# You may obtain a copy of the License at
++#
++#      https://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing, software
++# distributed under the License is distributed on an "AS IS" BASIS,
++# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++# See the License for the specific language governing permissions and
++# limitations under the License.
++#
++
++##############################################################################
++##
++##  Gradle start up script for UN*X
++##
++##############################################################################
++
++# Attempt to set APP_HOME
++# Resolve links: $0 may be a link
++PRG="$0"
++# Need this for relative symlinks.
++while [ -h "$PRG" ] ; do
++    ls=`ls -ld "$PRG"`
++    link=`expr "$ls" : '.*-> \(.*\)$'`
++    if expr "$link" : '/.*' > /dev/null; then
++        PRG="$link"
++    else
++        PRG=`dirname "$PRG"`"/$link"
++    fi
++done
++SAVED="`pwd`"
++cd "`dirname \"$PRG\"`/" >/dev/null
++APP_HOME="`pwd -P`"
++cd "$SAVED" >/dev/null
++
++APP_NAME="Gradle"
++APP_BASE_NAME=`basename "$0"`
++
++# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
++DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
++
++# Use the maximum available, or set MAX_FD != -1 to use that value.
++MAX_FD="maximum"
++
++warn () {
++    echo "$*"
++}
++
++die () {
++    echo
++    echo "$*"
++    echo
++    exit 1
++}
++
++# OS specific support (must be 'true' or 'false').
++cygwin=false
++msys=false
++darwin=false
++nonstop=false
++case "`uname`" in
++  CYGWIN* )
++    cygwin=true
++    ;;
++  Darwin* )
++    darwin=true
++    ;;
++  MINGW* )
++    msys=true
++    ;;
++  NONSTOP* )
++    nonstop=true
++    ;;
++esac
++
++CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
++
++
++# Determine the Java command to use to start the JVM.
++if [ -n "$JAVA_HOME" ] ; then
++    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
++        # IBM's JDK on AIX uses strange locations for the executables
++        JAVACMD="$JAVA_HOME/jre/sh/java"
++    else
++        JAVACMD="$JAVA_HOME/bin/java"
++    fi
++    if [ ! -x "$JAVACMD" ] ; then
++        die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
++
++Please set the JAVA_HOME variable in your environment to match the
++location of your Java installation."
++    fi
++else
++    JAVACMD="java"
++    which java >/dev/null 2>&1 || die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
++
++Please set the JAVA_HOME variable in your environment to match the
++location of your Java installation."
++fi
++
++# Increase the maximum file descriptors if we can.
++if [ "$cygwin" = "false" -a "$darwin" = "false" -a "$nonstop" = "false" ] ; then
++    MAX_FD_LIMIT=`ulimit -H -n`
++    if [ $? -eq 0 ] ; then
++        if [ "$MAX_FD" = "maximum" -o "$MAX_FD" = "max" ] ; then
++            MAX_FD="$MAX_FD_LIMIT"
++        fi
++        ulimit -n $MAX_FD
++        if [ $? -ne 0 ] ; then
++            warn "Could not set maximum file descriptor limit: $MAX_FD"
++        fi
++    else
++        warn "Could not query maximum file descriptor limit: $MAX_FD_LIMIT"
++    fi
++fi
++
++# For Darwin, add options to specify how the application appears in the dock
++if $darwin; then
++    GRADLE_OPTS="$GRADLE_OPTS \"-Xdock:name=$APP_NAME\" \"-Xdock:icon=$APP_HOME/media/gradle.icns\""
++fi
++
++# For Cygwin or MSYS, switch paths to Windows format before running java
++if [ "$cygwin" = "true" -o "$msys" = "true" ] ; then
++    APP_HOME=`cygpath --path --mixed "$APP_HOME"`
++    CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
++
++    JAVACMD=`cygpath --unix "$JAVACMD"`
++
++    # We build the pattern for arguments to be converted via cygpath
++    ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`
++    SEP=""
++    for dir in $ROOTDIRSRAW ; do
++        ROOTDIRS="$ROOTDIRS$SEP$dir"
++        SEP="|"
++    done
++    OURCYGPATTERN="(^($ROOTDIRS))"
++    # Add a user-defined pattern to the cygpath arguments
++    if [ "$GRADLE_CYGPATTERN" != "" ] ; then
++        OURCYGPATTERN="$OURCYGPATTERN|($GRADLE_CYGPATTERN)"
++    fi
++    # Now convert the arguments - kludge to limit ourselves to /bin/sh
++    i=0
++    for arg in "$@" ; do
++        CHECK=`echo "$arg"|egrep -c "$OURCYGPATTERN" -`
++        CHECK2=`echo "$arg"|egrep -c "^-"`                                 ### Determine if an option
++
++        if [ $CHECK -ne 0 ] && [ $CHECK2 -eq 0 ] ; then                    ### Added a condition
++            eval `echo args$i`=`cygpath --path --ignore --mixed "$arg"`
++        else
++            eval `echo args$i`="\"$arg\""
++        fi
++        i=`expr $i + 1`
++    done
++    case $i in
++        0) set -- ;;
++        1) set -- "$args0" ;;
++        2) set -- "$args0" "$args1" ;;
++        3) set -- "$args0" "$args1" "$args2" ;;
++        4) set -- "$args0" "$args1" "$args2" "$args3" ;;
++        5) set -- "$args0" "$args1" "$args2" "$args3" "$args4" ;;
++        6) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" ;;
++        7) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" ;;
++        8) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" ;;
++        9) set -- "$args0" "$args1" "$args2" "$args3" "$args4" "$args5" "$args6" "$args7" "$args8" ;;
++    esac
++fi
++
++# Escape application args
++save () {
++    for i do printf %s\\n "$i" | sed "s/'/'\\\\''/g;1s/^/'/;\$s/\$/' \\\\/" ; done
++    echo " "
++}
++APP_ARGS=`save "$@"`
++
++# Collect all arguments for the java command, following the shell quoting and substitution rules
++eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
++
++exec "$JAVACMD" "$@"
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/build.gradle b/build.gradle
+new file mode 100644
+--- /dev/null	(date 1669143360000)
++++ b/build.gradle	(date 1669143360000)
+@@ -0,0 +1,24 @@
++// Top-level build file where you can add configuration options common to all sub-projects/modules.
++
++buildscript {
++    repositories {
++        google()
++        jcenter()
++    }
++    dependencies {
++
++        classpath 'com.google.gms:google-services:4.3.14'
++
++    }
++}
++
++
++
++plugins {
++   id 'com.android.application' version '7.2.1' apply false
++   id 'com.android.library' version '7.2.1' apply false
++
++}
++task clean(type: Delete) {
++    delete rootProject.buildDir
++}
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1667213096000)
++++ b/.gitignore	(date 1667213096000)
+@@ -0,0 +1,15 @@
++*.iml
++.gradle
++/local.properties
++/.idea/caches
++/.idea/libraries
++/.idea/modules.xml
++/.idea/workspace.xml
++/.idea/navEditor.xml
++/.idea/assetWizardSettings.xml
++.DS_Store
++/build
++/captures
++.externalNativeBuild
++.cxx
++local.properties
+Index: app/src/main/res/values-night/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values-night/themes.xml b/app/src/main/res/values-night/themes.xml
+new file mode 100644
+--- /dev/null	(date 1667393298000)
++++ b/app/src/main/res/values-night/themes.xml	(date 1667393298000)
+@@ -0,0 +1,20 @@
++<resources xmlns:tools="http://schemas.android.com/tools">
++    <!-- Base application theme. -->
++    <style name="Theme.DBO_Quiz" parent="Theme.MaterialComponents.DayNight.NoActionBar">
++        <!-- Primary brand color. -->
++        <item name="colorPrimary">@color/purple_200</item>
++        <item name="colorPrimaryVariant">@color/purple_700</item>
++        <item name="colorOnPrimary">@color/black</item>
++        <!-- Secondary brand color. -->
++        <item name="colorSecondary">@color/teal_200</item>
++        <item name="colorSecondaryVariant">@color/teal_200</item>
++        <item name="colorOnSecondary">@color/black</item>
++        <!-- Status bar color. -->
++        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
++        <!-- Customize your theme here. -->
++    </style>
++
++    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
++        <item name="android:windowBackground">@drawable/splashscreen</item>
++    </style>
++</resources>
+\ No newline at end of file
+Index: app/src/main/res/values/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/themes.xml b/app/src/main/res/values/themes.xml
+new file mode 100644
+--- /dev/null	(date 1667332590000)
++++ b/app/src/main/res/values/themes.xml	(date 1667332590000)
+@@ -0,0 +1,20 @@
++<resources xmlns:tools="http://schemas.android.com/tools">
++    <!-- Base application theme. -->
++    <style name="Theme.DBO_Quiz" parent="Theme.MaterialComponents.DayNight.NoActionBar">
++        <!-- Primary brand color. -->
++        <item name="colorPrimary">@color/purple_500</item>
++        <item name="colorPrimaryVariant">@color/purple_700</item>
++        <item name="colorOnPrimary">@color/white</item>
++        <!-- Secondary brand color. -->
++        <item name="colorSecondary">@color/teal_200</item>
++        <item name="colorSecondaryVariant">@color/teal_700</item>
++        <item name="colorOnSecondary">@color/black</item>
++        <!-- Status bar color. -->
++        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
++        <!-- Customize your theme here. -->
++    </style>
++    
++    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
++        <item name="android:windowBackground">@drawable/splashscreen</item>
++    </style>
++</resources>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_login.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_login.xml b/app/src/main/res/layout/activity_login.xml
+new file mode 100644
+--- /dev/null	(date 1671789366286)
++++ b/app/src/main/res/layout/activity_login.xml	(date 1671789366286)
+@@ -0,0 +1,149 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:id="@+id/root_element"
++    tools:context=".MainActivity">
++
++    <ImageView
++        android:id="@+id/main_background"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:scaleType="centerCrop"
++        android:src="@drawable/main_background"
++        tools:layout_editor_absoluteX="0dp"
++        tools:layout_editor_absoluteY="0dp" />
++
++    <ImageView
++        android:id="@+id/mainimgboy"
++        android:layout_width="356dp"
++        android:layout_height="321dp"
++        android:layout_centerHorizontal="true"
++        android:layout_marginTop="84dp"
++        android:src="@drawable/main_img_boy"
++        android:visibility="gone"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.496"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="@+id/main_background" />
++
++    <EditText
++        android:id="@+id/edLogin"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="104dp"
++        android:ems="10"
++        android:hint="ivanov@mail.ru"
++        android:inputType="textPersonName"
++        android:textColorHint="#757373"
++        android:visibility="visible"
++        app:layout_constraintEnd_toEndOf="@+id/main_background"
++        app:layout_constraintStart_toStartOf="@+id/main_background"
++        app:layout_constraintTop_toBottomOf="@+id/mainimgboy" />
++
++    <EditText
++        android:id="@+id/edPassword"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="24dp"
++        android:ems="10"
++        android:hint="Password"
++        android:inputType="textPersonName"
++        android:textColorHint="#8F8888"
++        android:visibility="visible"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/edLogin" />
++
++    <androidx.appcompat.widget.AppCompatButton
++        android:id="@+id/bSignUp"
++        android:layout_width="207dp"
++        android:layout_height="40dp"
++        android:layout_marginTop="24dp"
++        android:background="@drawable/raund_back_red"
++        android:onClick="onClickSignUp"
++        android:text="Зарегистрироваться"
++        android:textColor="#ffe6e4"
++        android:visibility="visible"
++        app:layout_constraintEnd_toEndOf="@+id/edPassword"
++        app:layout_constraintHorizontal_bias="0.491"
++        app:layout_constraintStart_toStartOf="@+id/edPassword"
++        app:layout_constraintTop_toBottomOf="@+id/edPassword" />
++
++    <androidx.appcompat.widget.AppCompatButton
++        android:id="@+id/bSignIn"
++        android:layout_width="206dp"
++        android:layout_height="39dp"
++        android:layout_marginTop="8dp"
++        android:background="@drawable/raund_back_red"
++        android:onClick="onClickSignIn"
++        android:text="Войти"
++        android:textColor="#ffe6e4"
++        android:visibility="visible"
++        app:layout_constraintEnd_toEndOf="@+id/bSignUp"
++        app:layout_constraintHorizontal_bias="0.0"
++        app:layout_constraintStart_toStartOf="@+id/bSignUp"
++        app:layout_constraintTop_toBottomOf="@+id/bSignUp" />
++
++    <TextView
++        android:id="@+id/tvUser"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="32dp"
++        android:layout_marginEnd="32dp"
++        android:text="TextView"
++        android:visibility="gone"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <androidx.appcompat.widget.AppCompatButton
++        android:id="@+id/bGO"
++        android:background="@drawable/raund_back_red"
++        android:layout_width="287dp"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="32dp"
++        android:onClick="onClickGO"
++        android:text="Начать"
++        android:textColor="#ffe6e4"
++        android:textSize="24sp"
++        android:visibility="gone"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.498"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="@+id/edLogin" />
++
++    <androidx.appcompat.widget.AppCompatButton
++        android:id="@+id/bRating"
++        android:background="@drawable/raund_back_red"
++        android:layout_width="287dp"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="16dp"
++        android:onClick="onClickRating"
++        android:text="Рейтинг"
++        android:textColor="#ffe6e4"
++        android:textSize="24sp"
++        android:visibility="gone"
++        app:layout_constraintEnd_toEndOf="@+id/bGO"
++        app:layout_constraintHorizontal_bias="0.488"
++        app:layout_constraintStart_toStartOf="@+id/bGO"
++        app:layout_constraintTop_toBottomOf="@+id/bGO" />
++
++    <androidx.appcompat.widget.AppCompatButton
++        android:id="@+id/bExit"
++        android:background="@drawable/raund_back_red"
++        android:layout_width="287dp"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="16dp"
++        android:onClick="onClickExit"
++        android:text="Выход"
++        android:textColor="#ffe6e4"
++        android:textSize="24sp"
++        android:visibility="gone"
++        app:layout_constraintEnd_toEndOf="@+id/bRating"
++        app:layout_constraintHorizontal_bias="0.0"
++        app:layout_constraintStart_toStartOf="@+id/bRating"
++        app:layout_constraintTop_toBottomOf="@+id/bRating" />
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/rating_layout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/rating_layout.xml b/app/src/main/res/layout/rating_layout.xml
+new file mode 100644
+--- /dev/null	(date 1671724259834)
++++ b/app/src/main/res/layout/rating_layout.xml	(date 1671724259834)
+@@ -0,0 +1,49 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical"
++    android:background="@drawable/main_background">
++
++    <RelativeLayout
++        android:id="@+id/line_rating"
++        android:layout_width="match_parent"
++        android:layout_height="60dp"
++        android:background="@drawable/background3">
++
++        <ImageView
++            android:id="@+id/backBtn"
++            android:layout_width="30dp"
++            android:layout_height="30dp"
++            android:layout_centerVertical="true"
++            android:layout_marginStart="15dp"
++            android:onClick="onClickbackbtn"
++            app:srcCompat="?attr/actionModeCloseDrawable" />
++
++        <TextView
++            android:id="@+id/level"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_centerInParent="true"
++            android:text="Рейтинг"
++            android:textColor="#FFFFFF"
++            android:textSize="18sp"
++            android:textStyle="bold" />
++
++    </RelativeLayout>
++
++    <androidx.recyclerview.widget.RecyclerView
++        android:id="@+id/user_list"
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:layout_below="@+id/line_rating">
++
++    </androidx.recyclerview.widget.RecyclerView>
++
++
++
++
++</RelativeLayout>
+\ No newline at end of file
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/strings.xml b/app/src/main/res/values/strings.xml
+new file mode 100644
+--- /dev/null	(date 1671730764117)
++++ b/app/src/main/res/values/strings.xml	(date 1671730764117)
+@@ -0,0 +1,3 @@
++<resources>
++    <string name="app_name">ДБО Викторина</string>
++</resources>
+\ No newline at end of file
+Index: app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable-v24/ic_launcher_foreground.xml b/app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+new file mode 100644
+--- /dev/null	(date 1667213098000)
++++ b/app/src/main/res/drawable-v24/ic_launcher_foreground.xml	(date 1667213098000)
+@@ -0,0 +1,30 @@
++<vector xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:aapt="http://schemas.android.com/aapt"
++    android:width="108dp"
++    android:height="108dp"
++    android:viewportWidth="108"
++    android:viewportHeight="108">
++    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
++        <aapt:attr name="android:fillColor">
++            <gradient
++                android:endX="85.84757"
++                android:endY="92.4963"
++                android:startX="42.9492"
++                android:startY="49.59793"
++                android:type="linear">
++                <item
++                    android:color="#44000000"
++                    android:offset="0.0" />
++                <item
++                    android:color="#00000000"
++                    android:offset="1.0" />
++            </gradient>
++        </aapt:attr>
++    </path>
++    <path
++        android:fillColor="#FFFFFF"
++        android:fillType="nonZero"
++        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"
++        android:strokeWidth="1"
++        android:strokeColor="#00000000" />
++</vector>
+\ No newline at end of file
+Index: app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/values/colors.xml b/app/src/main/res/values/colors.xml
+new file mode 100644
+--- /dev/null	(date 1667330798000)
++++ b/app/src/main/res/values/colors.xml	(date 1667330798000)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <color name="purple_200">#FFBB86FC</color>
++    <color name="purple_500">#ED6E6E</color>
++    <color name="purple_700">#FF3700B3</color>
++    <color name="teal_200">#FF03DAC5</color>
++    <color name="teal_700">#FF018786</color>
++    <color name="black">#FF000000</color>
++    <color name="white">#FFFFFFFF</color>
++    <color name="simplewhite">#FFFFFFFF</color>
++</resources>
+\ No newline at end of file
+Index: app/src/main/res/layout/rating_view_item.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/rating_view_item.xml b/app/src/main/res/layout/rating_view_item.xml
+new file mode 100644
+--- /dev/null	(date 1671786325892)
++++ b/app/src/main/res/layout/rating_view_item.xml	(date 1671786325892)
+@@ -0,0 +1,29 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:padding="10dp"
++    android:clickable="true"
++    android:background="?attr/selectableItemBackground"
++    android:orientation="vertical"
++    android:layout_width="wrap_content"
++    android:layout_height="wrap_content">
++
++
++    <TextView
++        android:id="@+id/login"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="имя"
++        android:textColor="@color/black" />
++    <TextView
++        android:id="@+id/correct"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_alignParentEnd="true"
++        android:layout_alignParentRight="true"
++        android:layout_centerHorizontal="true"
++        android:text="баллы"
++        android:textColor="@color/black" />
++
++
++
++</RelativeLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml
+new file mode 100644
+--- /dev/null	(date 1671721760127)
++++ b/app/src/main/res/layout/activity_main.xml	(date 1671721760127)
+@@ -0,0 +1,216 @@
++<?xml version="1.0" encoding="utf-8"?>
++<RelativeLayout
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:orientation="vertical"
++    android:background="@drawable/main_background"
++    tools:context=".MainActivity">
++
++    //НАЧАЛО Первая линия викторин
++
++    <ImageView
++        android:id="@+id/backBtn05"
++        android:layout_width="30dp"
++        android:layout_height="30dp"
++        android:layout_marginTop="20dp"
++        android:layout_marginStart="15dp"
++        app:srcCompat="?attr/actionModeCloseDrawable" />
++
++    <TextView
++        android:id="@+id/chooseTopic"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_centerHorizontal="true"
++        android:layout_marginStart="140dp"
++        android:layout_marginTop="80dp"
++        android:layout_marginEnd="20dp"
++        android:text="ВЫБЕРИТЕ УРОВЕНЬ"
++        android:textColor="#FFFFFF"
++        android:textSize="20dp"
++
++
++        />
++    //НАЧАЛО УРОВЕНЬ НОВИЧОК
++
++    //КОНЕЦ Первая линия викторин
++    //НАЧАЛО Вторая линия викторин
++
++
++    //КОНЕЦ Вторая линия викторин
++    //НАЧАЛО Третья линия викторин
++    //КОНЕЦ Третья линия викторин
++    //Началол Четвертая линия викторин
++
++    //КОНЕЦ Четвертая линия викторин
++
++    //Начало Пятая линия викторин
++
++    //КОНЕЦ Пятая линия викторин
++
++    //НАЧАЛО кнопка начать викторину
++
++
++    <ScrollView
++        android:id="@id/blokquestion"
++        android:layout_width="match_parent"
++        android:layout_height="450dp"
++        android:layout_below="@id/chooseTopic"
++        android:layout_marginTop="4dp">
++
++        <LinearLayout
++            android:id="@+id/blokquestion"
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:layout_below="@id/chooseTopic"
++            android:layout_marginTop="1dp"
++            android:orientation="vertical">
++
++
++            <LinearLayout
++                android:id="@+id/line_1"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:layout_marginStart="20dp"
++                android:layout_marginTop="10dp"
++                android:layout_marginEnd="20dp"
++                android:background="@drawable/raund_back_white10"
++                android:orientation="horizontal"
++                android:padding="10dp">
++
++                <TextView
++                    android:id="@+id/lvl1"
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_weight="1"
++                    android:gravity="center"
++                    android:text="УРОВЕНЬ НОВИЧОК"
++                    android:textColor="#000000" />
++                //КОНЕЦ УРОВЕНЬ НОВИЧОК
++            </LinearLayout>
++
++            <LinearLayout
++                android:id="@+id/line_2"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:layout_marginStart="20dp"
++                android:layout_marginTop="10dp"
++                android:layout_marginEnd="20dp"
++                android:background="@drawable/raund_back_white10"
++                android:orientation="horizontal"
++                android:padding="10dp">
++
++                <TextView
++                    android:id="@+id/lvl2"
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_weight="1"
++                    android:gravity="center"
++                    android:text="УРОВЕНЬ СПЕЦИАЛИСТ"
++                    android:textColor="#000000" />
++            </LinearLayout>
++
++
++            <LinearLayout
++                android:id="@+id/line_3"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:layout_marginStart="20dp"
++                android:layout_marginTop="10dp"
++                android:layout_marginEnd="20dp"
++                android:background="@drawable/raund_back_white10"
++                android:orientation="horizontal"
++                android:padding="10dp">
++
++                <TextView
++                    android:id="@+id/lvl3"
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_weight="1"
++                    android:gravity="center"
++                    android:text="УРОВЕНЬ В. СПЕЦИАЛИСТ"
++                    android:textColor="#000000" />
++            </LinearLayout>
++
++            <LinearLayout
++                android:id="@+id/line_4"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:layout_marginStart="20dp"
++                android:layout_marginTop="10dp"
++                android:layout_marginEnd="20dp"
++                android:background="@drawable/raund_back_white10"
++                android:orientation="horizontal"
++                android:padding="10dp">
++
++                <TextView
++                    android:id="@+id/lvl4"
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_weight="1"
++                    android:gravity="center"
++                    android:text="УРОВЕНЬ Г. СПЕЦИАЛИСТ"
++                    android:textColor="#000000" />
++            </LinearLayout>
++
++
++            <LinearLayout
++                android:id="@+id/line_5"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:layout_marginStart="20dp"
++                android:layout_marginTop="10dp"
++                android:layout_marginEnd="20dp"
++                android:background="@drawable/raund_back_white10"
++                android:orientation="horizontal"
++                android:padding="10dp">
++
++                <TextView
++                    android:id="@+id/lvl5"
++                    android:layout_width="wrap_content"
++                    android:layout_height="wrap_content"
++                    android:layout_weight="1"
++                    android:gravity="center"
++                    android:text="УРОВЕНЬ ДЕЖУРНЫЙ"
++                    android:textColor="#000000" />
++            </LinearLayout>
++
++        </LinearLayout>
++    </ScrollView>
++
++    <LinearLayout
++        android:id="@+id/startQuizBtn2"
++        android:layout_width="match_parent"
++        android:layout_height="132dp"
++        android:layout_below="@id/blokquestion"
++        android:layout_marginTop="-15dp"
++        android:orientation="horizontal">
++
++        <androidx.appcompat.widget.AppCompatButton
++            android:id="@+id/startQuizBtn"
++            android:layout_width="match_parent"
++            android:layout_height="wrap_content"
++            android:layout_marginStart="20dp"
++            android:layout_marginTop="30dp"
++            android:layout_marginEnd="20dp"
++            android:background="@drawable/round_back_green20"
++            android:text="начать"
++            android:textColor="#FFFFFF"
++            android:textSize="16dp"
++            android:textStyle="bold" />
++    </LinearLayout>
++
++    <TextView
++        android:id="@+id/login2"
++        android:layout_width="123dp"
++        android:layout_height="49dp"
++        android:layout_marginStart="250dp"
++        android:layout_marginTop="15dp"
++        android:text="TextView"
++        android:visibility="invisible" />
++
++    //КОНЕЦ кнопка начать викторину
++
++</RelativeLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_quiz.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_quiz.xml b/app/src/main/res/layout/activity_quiz.xml
+new file mode 100644
+--- /dev/null	(date 1669759660000)
++++ b/app/src/main/res/layout/activity_quiz.xml	(date 1669759660000)
+@@ -0,0 +1,176 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    tools:context=".QuizActivity"
++    android:orientation="vertical"
++    android:background="@drawable/main_background">
++
++    <RelativeLayout
++        android:layout_width="match_parent"
++        android:layout_height="60dp"
++        android:background="@drawable/background3">
++
++        <ImageView
++            android:id="@+id/backBtn"
++            android:layout_width="30dp"
++            android:layout_height="30dp"
++            android:layout_centerVertical="true"
++            android:layout_marginStart="15dp"
++            app:srcCompat="?attr/actionModeCloseDrawable" />
++
++        <TextView
++            android:id="@+id/level"
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_centerInParent="true"
++            android:text="Selected Topic Name"
++            android:textColor="#FFFFFF"
++            android:textSize="18sp"
++            android:textStyle="bold" />
++
++        <LinearLayout
++            android:layout_width="wrap_content"
++            android:layout_height="wrap_content"
++            android:layout_alignParentEnd="true"
++            android:layout_centerVertical="true"
++            android:layout_marginEnd="15dp"
++            android:gravity="center"
++            android:orientation="horizontal">
++
++            <ImageView
++                android:id="@+id/imageView2"
++                android:layout_width="30dp"
++                android:layout_height="30dp"
++                android:layout_marginEnd="15dp"
++                app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
++
++            <TextView
++                android:id="@+id/timer"
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:layout_marginEnd="5dp"
++                android:text="10:00"
++                android:textColor="#FFFFFF" />
++        </LinearLayout>
++
++    </RelativeLayout>
++
++    <TextView
++        android:id="@+id/questions"
++        android:layout_width="wrap_content"
++        android:layout_height="30dp"
++        android:layout_gravity="center"
++        android:layout_marginTop="4dp"
++        android:elevation="1dp"
++        android:paddingStart="15dp"
++        android:paddingEnd="15dp"
++        android:text="1/10"
++        android:textColor="#FFFFFF" />
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="vertical">
++
++        <ScrollView
++            android:layout_width="match_parent"
++            android:layout_height="110dp">
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="match_parent"
++                android:orientation="vertical">
++
++                <TextView
++                    android:id="@+id/question"
++                    android:layout_width="match_parent"
++                    android:layout_height="wrap_content"
++                    android:layout_marginStart="20dp"
++                    android:layout_marginTop="-12dp"
++                    android:layout_marginEnd="20dp"
++                    android:gravity="center"
++                    android:minHeight="100dp"
++                    android:padding="20dp"
++                    android:text="Question willbe here ..."
++                    android:textColor="#FFFFFF"
++                    android:textSize="16sp" />
++            </LinearLayout>
++        </ScrollView>
++
++    </LinearLayout>
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:orientation="vertical">
++
++        <androidx.appcompat.widget.AppCompatButton
++            android:id="@+id/option1"
++            android:layout_width="match_parent"
++            android:layout_height="70dp"
++            android:layout_marginStart="20dp"
++            android:layout_marginTop="40dp"
++            android:layout_marginEnd="20dp"
++            android:background="@drawable/round_back_white_stoke2_10"
++            android:text="option 1"
++            android:textColor="#1F6BB8" />
++
++        <androidx.appcompat.widget.AppCompatButton
++            android:id="@+id/option2"
++            android:layout_width="match_parent"
++            android:layout_height="70dp"
++            android:layout_marginStart="20dp"
++            android:layout_marginTop="20dp"
++            android:layout_marginEnd="20dp"
++            android:background="@drawable/round_back_white_stoke2_10"
++            android:text="option 2"
++            android:textColor="#1F6BB8" />
++
++        <androidx.appcompat.widget.AppCompatButton
++            android:id="@+id/option3"
++            android:layout_width="match_parent"
++            android:layout_height="70dp"
++            android:layout_marginStart="20dp"
++            android:layout_marginTop="20dp"
++            android:layout_marginEnd="20dp"
++            android:background="@drawable/round_back_white_stoke2_10"
++            android:text="option 3"
++            android:textColor="#1F6BB8" />
++
++        <androidx.appcompat.widget.AppCompatButton
++            android:id="@+id/option4"
++            android:layout_width="match_parent"
++            android:layout_height="70dp"
++            android:layout_marginStart="20dp"
++            android:layout_marginTop="20dp"
++            android:layout_marginEnd="20dp"
++            android:background="@drawable/round_back_white_stoke2_10"
++            android:text="option 4"
++            android:textColor="#1F6BB8" />
++    </LinearLayout>
++
++    <androidx.appcompat.widget.AppCompatButton
++        android:id="@+id/nextBtn"
++        android:layout_width="match_parent"
++        android:layout_height="50dp"
++        android:layout_marginStart="20dp"
++        android:layout_marginTop="30dp"
++        android:layout_marginEnd="20dp"
++        android:background="@drawable/round_back_green20"
++        android:text="ДАЛЕЕ"
++        android:textColor="#FFFFFF" />
++
++    <TextView
++        android:id="@+id/login2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="50dp"
++        android:layout_marginTop="10dp"
++        android:text="жопа"
++        android:visibility="invisible" />
++
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_quiz_results.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_quiz_results.xml b/app/src/main/res/layout/activity_quiz_results.xml
+new file mode 100644
+--- /dev/null	(date 1671791244143)
++++ b/app/src/main/res/layout/activity_quiz_results.xml	(date 1671791244143)
+@@ -0,0 +1,133 @@
++<?xml version="1.0" encoding="utf-8"?>
++<androidx.constraintlayout.widget.ConstraintLayout
++    xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:background="@drawable/main_background"
++    tools:context=".QuizResults">
++
++    <ImageView
++        android:id="@+id/congratulayionIcon"
++        android:layout_width="356dp"
++        android:layout_height="292dp"
++        android:layout_marginTop="16dp"
++        android:adjustViewBounds="true"
++        android:src="@drawable/congratulation"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent" />
++
++    <TextView
++        android:id="@+id/successTextView"
++        android:layout_width="356dp"
++        android:layout_height="42dp"
++        android:layout_below="@+id/congratulayionIcon"
++        android:gravity="center"
++        android:text="Ваш результат:"
++        android:textColor="#FFFFFF"
++        android:textSize="30sp"
++        android:textStyle="bold"
++        app:layout_constraintEnd_toEndOf="@+id/congratulayionIcon"
++        app:layout_constraintHorizontal_bias="0.0"
++        app:layout_constraintStart_toStartOf="@+id/congratulayionIcon"
++        app:layout_constraintTop_toBottomOf="@+id/congratulayionIcon" />
++
++    <TextView
++        android:id="@+id/level"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="8dp"
++        android:text="TextView"
++        android:textColor="@color/black"
++        android:textSize="18sp"
++        android:visibility="visible"
++        app:layout_constraintEnd_toEndOf="@+id/successTextView"
++        app:layout_constraintHorizontal_bias="0.07"
++        app:layout_constraintStart_toStartOf="@+id/successTextView"
++        app:layout_constraintTop_toBottomOf="@+id/successTextView" />
++
++    <TextView
++        android:id="@+id/login"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="12dp"
++        android:text="TextView"
++        android:textColor="@color/black"
++        android:textSize="18sp"
++        android:visibility="visible"
++        app:layout_constraintEnd_toEndOf="@+id/successTextView"
++        app:layout_constraintHorizontal_bias="0.07"
++        app:layout_constraintStart_toStartOf="@+id/successTextView"
++        app:layout_constraintTop_toBottomOf="@+id/level" />
++
++    <androidx.appcompat.widget.AppCompatButton
++        android:id="@+id/startNewQuizBtn"
++        android:layout_width="337dp"
++        android:layout_height="61dp"
++        android:layout_alignParentBottom="true"
++        android:layout_marginTop="100dp"
++        android:background="@drawable/round_back_green10"
++        android:text="Начать новую викторину"
++        android:textColor="#FFFFFF"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/textView4" />
++
++    <TextView
++        android:id="@+id/textView3"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="12dp"
++        android:text="Количество верных ответов: "
++        android:textColor="@color/black"
++        android:textSize="18sp"
++        app:layout_constraintEnd_toEndOf="@+id/successTextView"
++        app:layout_constraintHorizontal_bias="0.169"
++        app:layout_constraintStart_toStartOf="@+id/successTextView"
++        app:layout_constraintTop_toBottomOf="@+id/login" />
++
++    <TextView
++        android:id="@+id/textView4"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="12dp"
++        android:text="Количество неверных ответов: "
++        android:textColor="@color/black"
++        android:textSize="18sp"
++        app:layout_constraintEnd_toEndOf="@+id/textView3"
++        app:layout_constraintHorizontal_bias="0.0"
++        app:layout_constraintStart_toStartOf="@+id/textView3"
++        app:layout_constraintTop_toBottomOf="@+id/textView3" />
++
++    <TextView
++        android:id="@+id/correctAnswears"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="12dp"
++        android:text=" 0"
++        android:textColor="#00C855"
++        android:textSize="18sp"
++        android:textStyle="bold"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.0"
++        app:layout_constraintStart_toEndOf="@+id/textView3"
++        app:layout_constraintTop_toBottomOf="@+id/login" />
++
++    <TextView
++        android:id="@+id/incorrectAnswears"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:layout_marginTop="12dp"
++        android:text="0"
++        android:textColor="#DD2C00"
++        android:textSize="18sp"
++        android:textStyle="bold"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.0"
++        app:layout_constraintStart_toEndOf="@+id/textView4"
++        app:layout_constraintTop_toBottomOf="@+id/correctAnswears" />
++
++
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/res/xml/data_extraction_rules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/xml/data_extraction_rules.xml b/app/src/main/res/xml/data_extraction_rules.xml
+new file mode 100644
+--- /dev/null	(date 1667213098000)
++++ b/app/src/main/res/xml/data_extraction_rules.xml	(date 1667213098000)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="utf-8"?><!--
++   Sample data extraction rules file; uncomment and customize as necessary.
++   See https://developer.android.com/about/versions/12/backup-restore#xml-changes
++   for details.
++-->
++<data-extraction-rules>
++    <cloud-backup>
++        <!-- TODO: Use <include> and <exclude> to control what is backed up.
++        <include .../>
++        <exclude .../>
++        -->
++    </cloud-backup>
++    <!--
++    <device-transfer>
++        <include .../>
++        <exclude .../>
++    </device-transfer>
++    -->
++</data-extraction-rules>
+\ No newline at end of file
+Index: app/src/main/res/xml/backup_rules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/xml/backup_rules.xml b/app/src/main/res/xml/backup_rules.xml
+new file mode 100644
+--- /dev/null	(date 1667213098000)
++++ b/app/src/main/res/xml/backup_rules.xml	(date 1667213098000)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="utf-8"?><!--
++   Sample backup rules file; uncomment and customize as necessary.
++   See https://developer.android.com/guide/topics/data/autobackup
++   for details.
++   Note: This file is ignored for devices older that API 31
++   See https://developer.android.com/about/versions/12/backup-restore
++-->
++<full-backup-content>
++    <!--
++   <include domain="sharedpref" path="."/>
++   <exclude domain="sharedpref" path="device.xml"/>
++-->
++</full-backup-content>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1670927317154)
++++ b/.idea/compiler.xml	(date 1670927317154)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <bytecodeTargetLevel target="11" />
++  </component>
++</project>
+\ No newline at end of file
