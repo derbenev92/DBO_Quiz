@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_element"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_background"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/mainimgboy"
+        android:layout_width="356dp"
+        android:layout_height="321dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/main_img_boy"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/main_background" />
+
+    <EditText
+        android:id="@+id/edLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:hint="ivanov@mail.ru"
+        android:inputType="textPersonName"
+        android:textColorHint="#757373"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/main_background"
+        app:layout_constraintStart_toStartOf="@+id/main_background"
+        app:layout_constraintTop_toBottomOf="@+id/mainimgboy" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColorHint="#8F8888"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edLogin" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bSignUp"
+        android:layout_width="207dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/raund_back_red"
+        android:onClick="onClickSignUp"
+        android:text="Зарегистрироваться"
+        android:textColor="#ffe6e4"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/edPassword"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/edPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edPassword" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bSignIn"
+        android:layout_width="206dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/raund_back_red"
+        android:onClick="onClickSignIn"
+        android:text="Войти"
+        android:textColor="#ffe6e4"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/bSignUp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bSignUp"
+        app:layout_constraintTop_toBottomOf="@+id/bSignUp" />
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="TextView"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bGO"
+        android:background="@drawable/raund_back_red"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="onClickGO"
+        android:text="Начать"
+        android:textColor="#ffe6e4"
+        android:textSize="24sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edLogin" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bRating"
+        android:background="@drawable/raund_back_red"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickRating"
+        android:text="Рейтинг"
+        android:textColor="#ffe6e4"
+        android:textSize="24sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/bGO"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/bGO"
+        app:layout_constraintTop_toBottomOf="@+id/bGO" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bExit"
+        android:background="@drawable/raund_back_red"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickExit"
+        android:text="Выход"
+        android:textColor="#ffe6e4"
+        android:textSize="24sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/bRating"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bRating"
+        app:layout_constraintTop_toBottomOf="@+id/bRating" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
