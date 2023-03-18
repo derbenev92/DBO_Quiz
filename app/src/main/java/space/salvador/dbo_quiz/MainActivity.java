@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         final LinearLayout line_3 = findViewById(R.id.line_3);
         final LinearLayout line_4 = findViewById(R.id.line_4);
         final LinearLayout line_5 = findViewById(R.id.line_5);
+        final LinearLayout line_6 = findViewById(R.id.line_6);
+        final LinearLayout line_7 = findViewById(R.id.line_7);
 
         final Button startQuizBtn = findViewById(R.id.startQuizBtn);
 
@@ -58,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
                 line_3.setBackgroundResource(R.drawable.raund_back_white10);
                 line_4.setBackgroundResource(R.drawable.raund_back_white10);
                 line_5.setBackgroundResource(R.drawable.raund_back_white10);
+                line_6.setBackgroundResource(R.drawable.raund_back_white10);
+                line_7.setBackgroundResource(R.drawable.raund_back_white10);
 
             }
         });
@@ -72,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
                 line_3.setBackgroundResource(R.drawable.raund_back_white10);
                 line_4.setBackgroundResource(R.drawable.raund_back_white10);
                 line_5.setBackgroundResource(R.drawable.raund_back_white10);
+                line_6.setBackgroundResource(R.drawable.raund_back_white10);
+                line_7.setBackgroundResource(R.drawable.raund_back_white10);
             }
         });
 
@@ -85,6 +91,8 @@ public class MainActivity extends AppCompatActivity {
                 line_1.setBackgroundResource(R.drawable.raund_back_white10);
                 line_4.setBackgroundResource(R.drawable.raund_back_white10);
                 line_5.setBackgroundResource(R.drawable.raund_back_white10);
+                line_6.setBackgroundResource(R.drawable.raund_back_white10);
+                line_7.setBackgroundResource(R.drawable.raund_back_white10);
             }
         });
 
@@ -98,19 +106,53 @@ public class MainActivity extends AppCompatActivity {
                 line_3.setBackgroundResource(R.drawable.raund_back_white10);
                 line_1.setBackgroundResource(R.drawable.raund_back_white10);
                 line_5.setBackgroundResource(R.drawable.raund_back_white10);
+                line_6.setBackgroundResource(R.drawable.raund_back_white10);
+                line_7.setBackgroundResource(R.drawable.raund_back_white10);
             }
         });
 
         line_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                selectedTopic = "КРЕДИТЫ";
+               line_5.setBackgroundResource(R.drawable.round_back_white_stroke10);
+
+               line_2.setBackgroundResource(R.drawable.raund_back_white10);
+               line_3.setBackgroundResource(R.drawable.raund_back_white10);
+               line_1.setBackgroundResource(R.drawable.raund_back_white10);
+               line_4.setBackgroundResource(R.drawable.raund_back_white10);
+               line_6.setBackgroundResource(R.drawable.raund_back_white10);
+               line_7.setBackgroundResource(R.drawable.raund_back_white10);
+           }
+        });
+
+        line_6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 selectedTopic = "ДЕЖУРНЫЙ";
-                line_5.setBackgroundResource(R.drawable.round_back_white_stroke10);
+                line_6.setBackgroundResource(R.drawable.round_back_white_stroke10);
 
                 line_2.setBackgroundResource(R.drawable.raund_back_white10);
                 line_3.setBackgroundResource(R.drawable.raund_back_white10);
                 line_1.setBackgroundResource(R.drawable.raund_back_white10);
                 line_4.setBackgroundResource(R.drawable.raund_back_white10);
+                line_5.setBackgroundResource(R.drawable.raund_back_white10);
+                line_7.setBackgroundResource(R.drawable.raund_back_white10);
+            }
+        });
+
+        line_7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                selectedTopic = "РУКОВОДИТЕЛЬ";
+                line_7.setBackgroundResource(R.drawable.round_back_white_stroke10);
+
+                line_2.setBackgroundResource(R.drawable.raund_back_white10);
+                line_3.setBackgroundResource(R.drawable.raund_back_white10);
+                line_1.setBackgroundResource(R.drawable.raund_back_white10);
+                line_4.setBackgroundResource(R.drawable.raund_back_white10);
+                line_5.setBackgroundResource(R.drawable.raund_back_white10);
+                line_6.setBackgroundResource(R.drawable.raund_back_white10);
             }
         });
         //Конец. Код для выбора уровня

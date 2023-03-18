@@ -69,7 +69,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="100dp"
         android:background="@drawable/round_back_green10"
-        android:text="Начать новую викторину"
+        android:text="ЗАКОНЧИТЬ ВИКТОРИНУ"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
